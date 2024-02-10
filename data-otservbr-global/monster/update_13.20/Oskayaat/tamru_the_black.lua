@@ -10,7 +10,7 @@ monster.outfit = {
 	lookLegs = 76,
 	lookFeet = 76,
 	lookAddons = 3,
-	lookMount = 0
+	lookMount = 0,
 }
 
 monster.health = 15500
@@ -22,12 +22,12 @@ monster.manaCost = 0
 
 monster.bosstiary = {
 	bossRaceId = 2405,
-	bossRace = RARITY_NEMESIS
+	bossRace = RARITY_NEMESIS,
 }
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 10,
 }
 
 monster.strategiesTarget = {
@@ -53,17 +53,15 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = true,
 	canWalkOnFire = true,
-	canWalkOnPoison = true
+	canWalkOnPoison = true,
 }
 
 monster.light = {
 	level = 0,
-	color = 0
+	color = 0,
 }
 
-monster.voices = {
-
-}
+monster.voices = {}
 
 monster.loot = {
 	{ name = "platinum coin", chance = 11576, maxCount = 32 },
@@ -83,19 +81,18 @@ monster.loot = {
 	{ name = "giant sapphire", chance = 5011, maxCount = 1 },
 }
 
-
 monster.attacks = {
-	{ name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400 },
-	{ name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = 0, maxDamage = -615, range = 7, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = false },
-	{ name ="combat", interval = 2000, chance = 10, type = COMBAT_EARTHDAMAGE, minDamage = -100, maxDamage = -400, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = true },
-	{ name ="speed", interval = 4000, chance = 20, speedChange = -350, range = 7, shootEffect = CONST_ANI_POISON, target = true, duration = 12000 },
-	{ name ="combat", interval = 2000, chance = 10, type = COMBAT_FIREDAMAGE, minDamage = 0, maxDamage = -574, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = false },
-	{ name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -300, maxDamage = -646, radius = 3, effect = CONST_ME_POFF, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400 },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = 0, maxDamage = -615, range = 7, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_EARTHDAMAGE, minDamage = -100, maxDamage = -400, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = true },
+	{ name = "speed", interval = 4000, chance = 20, speedChange = -350, range = 7, shootEffect = CONST_ANI_POISON, target = true, duration = 12000 },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_FIREDAMAGE, minDamage = 0, maxDamage = -574, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -300, maxDamage = -646, radius = 3, effect = CONST_ME_POFF, target = false },
 }
 
 monster.defenses = {
 	defense = 83,
-	armor = 83
+	armor = 83,
 }
 
 monster.elements = {
@@ -107,15 +104,15 @@ monster.elements = {
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = 50 },
-	{ type = COMBAT_HOLYDAMAGE , percent = 25 },
-	{ type = COMBAT_DEATHDAMAGE , percent = 0 }
+	{ type = COMBAT_HOLYDAMAGE, percent = 25 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
 }
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
 	{ type = "outfit", condition = false },
 	{ type = "invisible", condition = true },
-	{ type = "bleed", condition = false }
+	{ type = "bleed", condition = false },
 }
 
 mType:register(monster)

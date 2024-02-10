@@ -5,8 +5,8 @@ local config = {
 	expirationMessage = "Your VIP days ran out.",
 	expirationMessageType = MESSAGE_STATUS_WARNING,
 
-	outfits = {962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 1202, 1203, 1204, 1205, 1206, 1207},
-	mounts = {182, 146, 145, 113, 114, 115},
+	outfits = { 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 1202, 1203, 1204, 1205, 1206, 1207 },
+	mounts = { 182, 146, 145, 113, 114, 115 },
 }
 
 function Player.onRemoveVip(self)

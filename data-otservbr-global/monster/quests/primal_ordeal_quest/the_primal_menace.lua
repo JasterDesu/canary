@@ -358,5 +358,4 @@ end
 
 mType:register(monster)
 
-
 RegisterPrimalPackBeast(monster)

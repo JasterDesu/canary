@@ -41,7 +41,7 @@ local weapons = {
 			{ "Master Sorcerer" },
 		},
 	},
---[[	{
+	--[[	{
 		-- sanguine coil
 		itemId = 43882,
 		type = WEAPON_WAND,

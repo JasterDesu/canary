@@ -1,19 +1,19 @@
 local config = {
-	{ name="Energy Session", position = Position(32427, 32750, 12) },
-	{ name="Earth Session", position = Position(32623, 32546, 12) },
-	{ name="Fire Session", position = Position(32596, 32755, 12) },
-	{ name="Ice Session", position = Position(32621, 32566, 14) },
-   }
+	{ name = "Energy Session", position = Position(32427, 32750, 12) },
+	{ name = "Earth Session", position = Position(32623, 32546, 12) },
+	{ name = "Fire Session", position = Position(32596, 32755, 12) },
+	{ name = "Ice Session", position = Position(32621, 32566, 14) },
+}
 
 local teleportGazer = MoveEvent()
 function teleportGazer.onStepIn(creature, item, position, fromPosition)
 	local player = creature:getPlayer()
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = "Teleport Library",
-		message = "Hunts"
-	}
+		message = "Hunts",
+	})
 	for i, info in pairs(config) do
-		window:addChoice(string.format("%s", info.name), function (player, button, choice)
+		window:addChoice(string.format("%s", info.name), function(player, button, choice)
 			if button.name ~= "Select" then
 				return true
 			end

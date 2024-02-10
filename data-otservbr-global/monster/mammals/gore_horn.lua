@@ -83,7 +83,6 @@ monster.loot = {
 	{ name = "Diamond Sceptre", chance = 2060 },
 	{ name = "Doublet", chance = 1390 },
 	{ name = "Hammer of Wrath", chance = 1070 },
-
 }
 
 monster.attacks = {

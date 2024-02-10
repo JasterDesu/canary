@@ -83,7 +83,6 @@ monster.loot = {
 	{ name = "Fire Sword", chance = 2650 },
 	{ name = "Wand of Dragonbreath", chance = 2330 },
 	{ name = "Metal Spats", chance = 2260 },
-
 }
 
 monster.attacks = {

@@ -16,11 +16,11 @@ npcConfig.outfit = {
 	lookBody = 48,
 	lookLegs = 48,
 	lookFeet = 46,
-	lookAddons = 3
+	lookAddons = 3,
 }
 
 npcConfig.flags = {
-	floorchange = false
+	floorchange = false,
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -71,7 +71,7 @@ npcConfig.shop = {
 	{ name = "Eldritch Claymore", clientId = 36657, sell = 1 },
 	{ name = "Eldritch Cowl", clientId = 36670, sell = 1 },
 	{ name = "Eldritch Cuirass", clientId = 36663, sell = 1 },
-	{ name = "Eldritch Folio", clientId = 36672	, sell = 1 },
+	{ name = "Eldritch Folio", clientId = 36672, sell = 1 },
 	{ name = "Eldritch Greataxe", clientId = 36661, sell = 1 },
 	{ name = "Eldritch Hood", clientId = 36671, sell = 1 },
 	{ name = "Eldritch Quiver", clientId = 36666, sell = 1 },
@@ -86,7 +86,7 @@ npcConfig.shop = {
 	{ name = "Gilded Eldritch Rod", clientId = 36675, sell = 1 },
 	{ name = "Gilded Eldritch Wand", clientId = 36669, sell = 1 },
 	{ name = "Gilded Eldritch Warmace", clientId = 36660, sell = 1 },
-    -- Jungle
+	-- Jungle
 	{ name = "Jungle Bow", clientId = 35518, sell = 1 },
 	{ name = "Jungle Flail", clientId = 35514, sell = 1 },
 	{ name = "Jungle Quiver", clientId = 35524, sell = 1 },
@@ -98,7 +98,7 @@ npcConfig.shop = {
 	{ name = "Makeshift Boots", clientId = 35519, sell = 1 },
 	{ name = "Exotic Amulet", clientId = 35523, sell = 1 },
 	{ name = "Throwing Axe", clientId = 35515, sell = 1 },
-    -- Lion
+	-- Lion
 	{ name = "Lion Amulet", clientId = 34158, sell = 1 },
 	{ name = "Lion Spangenhelm", clientId = 34156, sell = 2 },
 	{ name = "Lion Plate", clientId = 34157, sell = 2 },
@@ -110,7 +110,7 @@ npcConfig.shop = {
 	{ name = "Lion Longbow", clientId = 34150, sell = 2 },
 	{ name = "Lion Shield", clientId = 34154, sell = 2 },
 	{ name = "Lion Spellbook", clientId = 34153, sell = 2 },
-    -- Cobra
+	-- Cobra
 	{ name = "Cobra Amulet", clientId = 31631, sell = 2 },
 	{ name = "Cobra Axe", clientId = 30396, sell = 2 },
 	{ name = "Cobra Boots", clientId = 30394, sell = 2 },
@@ -120,7 +120,7 @@ npcConfig.shop = {
 	{ name = "Cobra Rod", clientId = 30400, sell = 2 },
 	{ name = "Cobra Wand", clientId = 30399, sell = 2 },
 	{ name = "Cobra Sword", clientId = 30398, sell = 2 },
-    -- Mutated
+	-- Mutated
 	{ name = "Antler-Horn Helmet", clientId = 40588, sell = 2 },
 	{ name = "Alchemist's Boots", clientId = 40592, sell = 2 },
 	{ name = "Alchemist's Notepad", clientId = 40594, sell = 2 },
@@ -129,7 +129,7 @@ npcConfig.shop = {
 	{ name = "Mutated Skin Armor", clientId = 40591, sell = 2 },
 	{ name = "Mutated Skin Legs", clientId = 40590, sell = 2 },
 	{ name = "Stitched Mutant Hide Legs", clientId = 40589, sell = 2 },
-    -- Naga
+	-- Naga
 	{ name = "Turtle Amulet", clientId = 40589, sell = 2 },
 	{ name = "Naga Sword", clientId = 39155, sell = 3 },
 	{ name = "Naga Axe", clientId = 39156, sell = 3 },
@@ -144,7 +144,7 @@ npcConfig.shop = {
 	{ name = "Midnight Tunic", clientId = 39165, sell = 3 },
 	{ name = "Dawnfire Pantaloons", clientId = 39166, sell = 3 },
 	{ name = "Midnight Sarong", clientId = 39167, sell = 3 },
-    -- Falcon
+	-- Falcon
 	{ name = "Falcon Circlet", clientId = 28714, sell = 3 },
 	{ name = "Falcon Coif", clientId = 28715, sell = 3 },
 	{ name = "Falcon Rod", clientId = 28716, sell = 3 },
@@ -156,7 +156,7 @@ npcConfig.shop = {
 	{ name = "Falcon Longsword", clientId = 28723, sell = 3 },
 	{ name = "Falcon Battleaxe", clientId = 28724, sell = 3 },
 	{ name = "Falcon Mace", clientId = 28725, sell = 3 },
-    -- Soul
+	-- Soul
 	{ name = "Soulcutter", clientId = 34082, sell = 4 },
 	{ name = "Soulshredder", clientId = 34083, sell = 4 },
 	{ name = "Soulbiter", clientId = 34084, sell = 4 },
@@ -175,7 +175,7 @@ npcConfig.shop = {
 	{ name = "Pair of Soulstalker", clientId = 34097, sell = 4 },
 	{ name = "Pair of Soulwalker", clientId = 34098, sell = 4 },
 	{ name = "Soulbastion", clientId = 34099, sell = 4 },
-    -- Primal
+	-- Primal
 	{ name = "Spiritthorn Armor", clientId = 39147, sell = 5 },
 	{ name = "Spiritthorn Helmet", clientId = 39148, sell = 5 },
 	{ name = "Alicorn Headguard", clientId = 39149, sell = 5 },
@@ -190,11 +190,10 @@ npcConfig.shop = {
 	{ name = "Arcanomancer Sigil", clientId = 39185, sell = 4 },
 	{ name = "Arboreal Ring", clientId = 39188, sell = 4 },
 
-    --Bags
-    { name = "Bag you desire", clientId = 34109, buy = 20 },
-    { name = "Primal Bag", clientId = 39546, buy = 30 },
-    { name = "Bag you covet", clientId = 43895, buy = 80 },
-	
+	--Bags
+	{ name = "Bag you desire", clientId = 34109, buy = 20 },
+	{ name = "Primal Bag", clientId = 39546, buy = 30 },
+	{ name = "Bag you covet", clientId = 43895, buy = 80 },
 }
 
 -- On buy npc shop message
@@ -206,7 +205,6 @@ npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name
 	player:sendTextMessage(MESSAGE_INFO_DESCR, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
 end
 -- On check npc shop message (look item)
-npcType.onCheckItem = function(npc, player, clientId, subType)
-end
+npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 npcType:register(npcConfig)

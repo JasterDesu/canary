@@ -10,7 +10,7 @@ monster.outfit = {
 	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
-	lookMount = 0
+	lookMount = 0,
 }
 
 monster.health = 32200
@@ -30,11 +30,11 @@ monster.Bestiary = {
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
-	Locations = "Sanctuary."
-	}
+	Locations = "Sanctuary.",
+}
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 10,
 }
 
 monster.strategiesTarget = {
@@ -60,17 +60,15 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = true,
-	canWalkOnPoison = true
+	canWalkOnPoison = true,
 }
 
 monster.light = {
 	level = 0,
-	color = 0
+	color = 0,
 }
 
-monster.voices = {
-
-}
+monster.voices = {}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 11290, maxCount = 1 },
@@ -85,17 +83,17 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1900 },
-	{ name ="combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -450, maxDamage = -1900, range = 7, shootEffect = CONST_ANI_SMALLHOLY, effect = CONST_ME_HOLYAREA, target = true },
-	{ name ="combat", interval = 2000, chance = 22, type = COMBAT_EARTHDAMAGE, minDamage = -450, maxDamage = -1900, radius = 4, effect = CONST_ME_SMALLPLANTS, target = true },
-	{ name ="combat", interval = 2000, chance = 22, type = COMBAT_PHYSICALDAMAGE, minDamage = -450, maxDamage = -2000, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false },
-	{ name ="combat", interval = 2000, chance = 22, type = COMBAT_HOLYDAMAGE, minDamage = -450, maxDamage = -2000, radius = 4, effect = CONST_ME_HOLYDAMAGE, target = false },
-	{ name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -400, maxDamage = -1600, range = 7, shootEffect = CONST_ANI_PIERCINGBOLT, effect = CONST_ME_GREEN_RINGS, target = true },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1900 },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_HOLYDAMAGE, minDamage = -450, maxDamage = -1900, range = 7, shootEffect = CONST_ANI_SMALLHOLY, effect = CONST_ME_HOLYAREA, target = true },
+	{ name = "combat", interval = 2000, chance = 22, type = COMBAT_EARTHDAMAGE, minDamage = -450, maxDamage = -1900, radius = 4, effect = CONST_ME_SMALLPLANTS, target = true },
+	{ name = "combat", interval = 2000, chance = 22, type = COMBAT_PHYSICALDAMAGE, minDamage = -450, maxDamage = -2000, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false },
+	{ name = "combat", interval = 2000, chance = 22, type = COMBAT_HOLYDAMAGE, minDamage = -450, maxDamage = -2000, radius = 4, effect = CONST_ME_HOLYDAMAGE, target = false },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -400, maxDamage = -1600, range = 7, shootEffect = CONST_ANI_PIERCINGBOLT, effect = CONST_ME_GREEN_RINGS, target = true },
 }
 
 monster.defenses = {
 	defense = 100,
-	armor = 117
+	armor = 117,
 }
 
 monster.elements = {
@@ -107,15 +105,15 @@ monster.elements = {
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = -5 },
-	{ type = COMBAT_HOLYDAMAGE , percent = 40 },
-	{ type = COMBAT_DEATHDAMAGE , percent = -20 }
+	{ type = COMBAT_HOLYDAMAGE, percent = 40 },
+	{ type = COMBAT_DEATHDAMAGE, percent = -20 },
 }
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
 	{ type = "outfit", condition = false },
 	{ type = "invisible", condition = true },
-	{ type = "bleed", condition = false }
+	{ type = "bleed", condition = false },
 }
 
 mType:register(monster)

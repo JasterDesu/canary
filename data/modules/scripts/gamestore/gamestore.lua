@@ -99,91 +99,90 @@ GameStore.Categories = {
 		},
 	},
 
-		-- VIP
-		{
-			icons = { "Chaos_Critical_Dicebp.png" },
-			name = "Vip",
-			rookgaard = true,
-			subclasses = { "Itens", "Bags", "Variados", "Foods", "Pocoes" },
+	-- VIP
+	{
+		icons = { "Chaos_Critical_Dicebp.png" },
+		name = "Vip",
+		rookgaard = true,
+		subclasses = { "Itens", "Bags", "Variados", "Foods", "Pocoes" },
+	},
+	-- VIP ~ itens
+	{
+		icons = { "Gold_Pouchbp.png" },
+		name = "itens",
+		parent = "Vip",
+		rookgaard = true,
+		state = GameStore.States.STATE_NONE,
+		offers = {
+			{
+				icons = { "Gold_Pouch.png" },
+				name = "Loot Pouch",
+				price = 350,
+				itemtype = 23721,
+				count = 1,
+				description = "Carregue o quanto sua capacidade permitir",
+				type = GameStore.OfferTypes.OFFER_TYPE_POUCH,
+				home = true,
+			},
+			{
+				icons = { "dragon_eye.png" },
+				name = "Teleport Cube",
+				price = 350,
+				itemtype = 31633,
+				count = 1,
+				description = "Acesso a teleports exclusivos, hunts, house, trainer, forge e npc island.",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				home = true,
+			},
+			{
+				icons = { "Chaos_Critical_Dicebp.png" },
+				name = "Hunt Refiller",
+				price = 250,
+				itemtype = 35909,
+				count = 1,
+				description = "crie um npc onde voce estiver, facilitando a venda e compra de itens",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
+			{
+				icons = { "Dust_Refil.png" },
+				name = "Dust Refil",
+				price = 200,
+				itemtype = 19082,
+				count = 1,
+				description = "Receba 100 dusts de forja",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
+			{
+				icons = { "Exalted_Core.png" },
+				name = "Exalted Core",
+				price = 250,
+				itemtype = 37110,
+				count = 1,
+				description = "Aumente sua chance de forja em 18%",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
+			{
+				icons = { "Stamina_Extention.png" },
+				name = "Stamina Refill",
+				price = 200,
+				itemtype = 33893,
+				count = 1,
+				description = "recupere 20 horas de stamina - 1x",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
+			{
+				icons = { "dragon_eye.png" },
+				name = "Forge System",
+				price = 1250,
+				itemtype = 16262,
+				count = 1,
+				description = "Forge em qualquer lugar.",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				home = true,
+			},
 		},
-		-- VIP ~ itens
-		{
-			icons = { "Gold_Pouchbp.png" },
-			name = "itens",
-			parent = "Vip",
-			rookgaard = true,
-			state = GameStore.States.STATE_NONE,
-			offers = {
-				{
-					icons = { "Gold_Pouch.png" },
-					name = "Loot Pouch",
-					price = 350,
-					itemtype = 23721,
-					count = 1,
-					description = "Carregue o quanto sua capacidade permitir",
-					type = GameStore.OfferTypes.OFFER_TYPE_POUCH,
-					home = true
-				},
-				{
-					icons = { "dragon_eye.png" },
-					name = "Teleport Cube",
-					price = 350,
-					itemtype = 31633,
-					count = 1,
-					description = "Acesso a teleports exclusivos, hunts, house, trainer, forge e npc island.",
-					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-					home = true
-				},
-				{
-					icons = { "Chaos_Critical_Dicebp.png" },
-					name = "Hunt Refiller",
-					price = 250,
-					itemtype = 35909,
-					count = 1,
-					description = "crie um npc onde voce estiver, facilitando a venda e compra de itens",
-					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-				},
-				{
-					icons = { "Dust_Refil.png" },
-					name = "Dust Refil",
-					price = 200,
-					itemtype = 19082,
-					count = 1,
-					description = "Receba 100 dusts de forja",
-					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-				},
-				{
-					icons = { "Exalted_Core.png" },
-					name = "Exalted Core",
-					price = 250,
-					itemtype = 37110,
-					count = 1,
-					description = "Aumente sua chance de forja em 18%",
-					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-				},
-				{
-					icons = { "Stamina_Extention.png" },
-					name = "Stamina Refill",
-					price = 200,
-					itemtype = 33893,
-					count = 1,
-					description = "recupere 20 horas de stamina - 1x",
-					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-				},
-				{
-					icons = { "dragon_eye.png" },
-					name = "Forge System",
-					price = 1250,
-					itemtype = 16262,
-					count = 1,
-					description = "Forge em qualquer lugar.",
-					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-					home = true
-				},
+	},
 
-			},	
-		},
-	
 	-- Vip ~ Bags
 	{
 		icons = { "Bag_You_Desirebp.png" },
@@ -199,7 +198,7 @@ GameStore.Categories = {
 				itemtype = 34109,
 				count = 1,
 				description = "Obtenha um item soul!",
-				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,	
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
 			{
 				icons = { "primal_bag.png" },
@@ -208,7 +207,7 @@ GameStore.Categories = {
 				itemtype = 39546,
 				count = 1,
 				description = "Obtenha um item primal!",
-				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,	
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
 			{
 				icons = { "bag_you_covet.png" },
@@ -218,7 +217,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "Obtenha um item sanguine!",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-				home = true,	
+				home = true,
 			},
 			{
 				icons = { "surprise_bag.png" },
@@ -228,7 +227,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "Voce pode obter qualquer item Destruction, Falcon, Gnome, Cobra ou Lion. E a chance de ganhar um item bonus",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-				home = true,	
+				home = true,
 			},
 			{
 				icons = { "surprise_bag.png" },
@@ -237,11 +236,11 @@ GameStore.Categories = {
 				itemtype = 30316,
 				count = 5,
 				description = "Voce pode obter qualquer item Destruction, Falcon, Gnome, Cobra ou Lion. E a chance de ganhar um item bonus",
-				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,	
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
 		},
 	},
-	
+
 	-- Vip ~ Variados
 	{
 		icons = { "Squeezing_Gear_of_Girlpower.png" },
@@ -258,7 +257,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "Grant access to roulette.",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "squeezing_gear_of_girlpower.png" },
@@ -343,7 +342,7 @@ GameStore.Categories = {
 			},
 		},
 	},
-	
+
 	-- Vip ~ Foods
 	{
 		icons = { "Winterberry_Liquorbp.png" },
@@ -352,7 +351,7 @@ GameStore.Categories = {
 		rookgaard = true,
 		state = GameStore.States.STATE_NONE,
 		offers = {
-			
+
 			{
 				icons = { "blueberry_cupcake.png" },
 				name = "Blueberry Cupcake",
@@ -434,10 +433,9 @@ GameStore.Categories = {
 				description = "Aumenta seu melee em 10 pontos por 1hora",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
-		
 		},
 	},
-	
+
 	-- Vip ~ Pocoes
 	{
 		icons = { "Tibiora's_Boxbp.png" },
@@ -446,7 +444,7 @@ GameStore.Categories = {
 		rookgaard = true,
 		state = GameStore.States.STATE_NONE,
 		offers = {
-			
+
 			{
 				icons = { "wealth_duplex.png" },
 				name = "Loot X2",
@@ -762,7 +760,6 @@ GameStore.Categories = {
 				description = "Aumenta sua chance de hit critico em 5% por 1 hora",
 				type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
 			},
-				
 		},
 	},
 	-- Consumables
@@ -3052,7 +3049,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>Armoured Archers are the epitome of invisible danger. Silently and nimbly, they advance in the background. For hours, they wait patiently, almost motionless, for the decisive moment. Just to be perfectly present in a deadly second.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				
 			},
 			{
 				icons = { "Outfit_Beastmaster_Male_Addon_3.png", "Outfit_Beastmaster_Female_Addon_3.png" },
@@ -5097,7 +5093,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Portable_Aqueduct.png" },
@@ -7198,7 +7193,7 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true
+				home = true,
 			},
 			{
 				icons = { "Gilded_Imbuing_Shrine.png" },
@@ -7529,8 +7524,8 @@ GameStore.Categories = {
 				description = "<i>Get an additional hunting tasks slot to activate additional hunting task!</i>\n\n{character}\n{info} maximum amount that can be owned by character: 3\n{info} added directly to Hunting Task dialog",
 				type = GameStore.OfferTypes.OFFER_TYPE_HUNTINGSLOT,
 			},
-		
---[[			{
+
+			--[[			{
 				icons = { "Gold_Pouch.png" },
 				name = "Gold Pouch",
 				price = 900,
@@ -7718,7 +7713,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Gilded_Crown.png" },
@@ -7728,7 +7722,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Gilded_Horned_Helmet.png" },
@@ -7738,7 +7731,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Gilded_Magic_Longsword.png" },
@@ -7748,7 +7740,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Gilded_Warlord_Sword.png" },
@@ -7758,7 +7749,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				
 			},
 			{
 				icons = { "Guzzlemaw_Grub.png" },

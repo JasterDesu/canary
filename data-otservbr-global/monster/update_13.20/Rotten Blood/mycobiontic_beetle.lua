@@ -10,9 +10,8 @@ monster.outfit = {
 	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
-	lookMount = 0
+	lookMount = 0,
 }
-
 
 monster.raceId = 2375
 monster.Bestiary = {
@@ -24,8 +23,8 @@ monster.Bestiary = {
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
-	Locations = "Sanctuary."
-	}
+	Locations = "Sanctuary.",
+}
 
 monster.health = 30200
 monster.maxHealth = 30200
@@ -36,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 10,
 }
 
 monster.strategiesTarget = {
@@ -62,17 +61,15 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = true,
-	canWalkOnPoison = true
+	canWalkOnPoison = true,
 }
 
 monster.light = {
 	level = 0,
-	color = 0
+	color = 0,
 }
 
-monster.voices = {
-
-}
+monster.voices = {}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 70540 },
@@ -88,15 +85,15 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1900 },
-	{ name ="combat", interval = 2000, chance = 25, type = COMBAT_HOLYDAMAGE, minDamage = -700, maxDamage = -2100, range = 7, shootEffect = CONST_ANI_SMALLHOLY, effect = CONST_ME_HOLYDAMAGE, target = true },
-	{ name ="combat", interval = 3000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -650, maxDamage = -2100, range = 7, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = true },
-	{ name ="combat", interval = 3000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -650, maxDamage = -2100, range = 7, radius = 4, effect = CONST_ME_ENERGYAREA, target = false }
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1900 },
+	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_HOLYDAMAGE, minDamage = -700, maxDamage = -2100, range = 7, shootEffect = CONST_ANI_SMALLHOLY, effect = CONST_ME_HOLYDAMAGE, target = true },
+	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -650, maxDamage = -2100, range = 7, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = true },
+	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -650, maxDamage = -2100, range = 7, radius = 4, effect = CONST_ME_ENERGYAREA, target = false },
 }
 
 monster.defenses = {
 	defense = 100,
-	armor = 116
+	armor = 116,
 }
 
 monster.elements = {
@@ -108,15 +105,15 @@ monster.elements = {
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = -25 },
-	{ type = COMBAT_HOLYDAMAGE , percent = -5 },
-	{ type = COMBAT_DEATHDAMAGE , percent = 0 }
+	{ type = COMBAT_HOLYDAMAGE, percent = -5 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
 }
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
 	{ type = "outfit", condition = false },
 	{ type = "invisible", condition = true },
-	{ type = "bleed", condition = false }
+	{ type = "bleed", condition = false },
 }
 
 mType:register(monster)

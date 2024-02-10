@@ -10,7 +10,7 @@ monster.outfit = {
 	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
-	lookMount = 0
+	lookMount = 0,
 }
 
 monster.health = 31700
@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 10,
 }
 
 monster.strategiesTarget = {
@@ -41,8 +41,8 @@ monster.Bestiary = {
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
-	Locations = "Sanctuary."
-	}
+	Locations = "Sanctuary.",
+}
 
 monster.flags = {
 	summonable = false,
@@ -61,17 +61,15 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = true,
-	canWalkOnPoison = true
+	canWalkOnPoison = true,
 }
 
 monster.light = {
 	level = 0,
-	color = 0
+	color = 0,
 }
 
-monster.voices = {
-
-}
+monster.voices = {}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 70540 },
@@ -89,16 +87,16 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1800 },
-	{ name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -550, maxDamage = -2100, length = 5, spread = 3, effect = CONST_ME_GROUNDSHAKER, target = false },
-	{ name ="combat", interval = 2000, chance = 10, type = COMBAT_ENERGYDAMAGE, minDamage = -800, maxDamage = -2000, radius = 7, effect = CONST_ME_BIGCLOUDS, target = false },
-	{ name ="combat", interval = 2000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -550, maxDamage = -2000, range = 7, shootEffect = CONST_ANI_SNOWBALL, effect = CONST_ME_ICEATTACK, target = true },
-	{ name ="combat", interval = 2000, chance = 25, type = COMBAT_ICEDAMAGE, minDamage = -300, maxDamage = -1700, range = 7, radius = 5, shootEffect = CONST_ANI_ICE, effect = CONST_ME_ICEAREA, target = true }
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1800 },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -550, maxDamage = -2100, length = 5, spread = 3, effect = CONST_ME_GROUNDSHAKER, target = false },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_ENERGYDAMAGE, minDamage = -800, maxDamage = -2000, radius = 7, effect = CONST_ME_BIGCLOUDS, target = false },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -550, maxDamage = -2000, range = 7, shootEffect = CONST_ANI_SNOWBALL, effect = CONST_ME_ICEATTACK, target = true },
+	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_ICEDAMAGE, minDamage = -300, maxDamage = -1700, range = 7, radius = 5, shootEffect = CONST_ANI_ICE, effect = CONST_ME_ICEAREA, target = true },
 }
 
 monster.defenses = {
 	defense = 104,
-	armor = 104
+	armor = 104,
 }
 
 monster.elements = {
@@ -110,15 +108,15 @@ monster.elements = {
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = -15 },
-	{ type = COMBAT_HOLYDAMAGE , percent = -5 },
-	{ type = COMBAT_DEATHDAMAGE , percent = 5 }
+	{ type = COMBAT_HOLYDAMAGE, percent = -5 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 5 },
 }
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
 	{ type = "outfit", condition = false },
 	{ type = "invisible", condition = true },
-	{ type = "bleed", condition = false }
+	{ type = "bleed", condition = false },
 }
 
 mType:register(monster)

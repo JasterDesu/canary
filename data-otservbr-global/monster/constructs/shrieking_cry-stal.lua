@@ -87,7 +87,6 @@ monster.loot = {
 	{ name = "Gold Ring", chance = 600 },
 	{ name = "Green Gem", chance = 420 },
 	{ name = "Ring of the Sky", chance = 210 },
-
 }
 
 monster.attacks = {

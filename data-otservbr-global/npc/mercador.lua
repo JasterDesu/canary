@@ -16,11 +16,11 @@ npcConfig.outfit = {
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
-	lookAddons = 0
+	lookAddons = 0,
 }
 
 npcConfig.flags = {
-	floorchange = false
+	floorchange = false,
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -1474,7 +1474,7 @@ npcConfig.shop = {
 	{ itemName = "royal almadine", clientId = 39038, sell = 460000 },
 	{ itemName = "great health potion", clientId = 239, buy = 225 },
 	{ itemName = "great mana potion", clientId = 238, buy = 144 },
-	{ itemName = "great spirit potion", clientId = 7642, buy = 228 },	
+	{ itemName = "great spirit potion", clientId = 7642, buy = 228 },
 	{ itemName = "strong health potion", clientId = 236, buy = 115 },
 	{ itemName = "strong mana potion", clientId = 237, buy = 93 },
 	{ itemName = "supreme health potion", clientId = 23375, buy = 625 },
@@ -1482,7 +1482,6 @@ npcConfig.shop = {
 	{ itemName = "ultimate mana potion", clientId = 23373, buy = 438 },
 	{ itemName = "ultimate spirit potion", clientId = 23374, buy = 438 },
 	{ itemName = "all loot in pouch", clientId = ITEM_GOLD_POUCH, sell = 1 },
-
 }
 
 -- On buy npc shop message
@@ -1494,7 +1493,6 @@ npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name
 	player:sendTextMessage(MESSAGE_INFO_DESCR, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
 end
 -- On check npc shop message (look item)
-npcType.onCheckItem = function(npc, player, clientId, subType)
-end
+npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 npcType:register(npcConfig)

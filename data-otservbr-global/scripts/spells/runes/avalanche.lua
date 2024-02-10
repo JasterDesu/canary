@@ -12,8 +12,7 @@ function onGetFormulaValues(player, level, maglevel)
 	--[[teste lvl 500 ml 100
 	min 100 + 300 + 20 = 420
 	max 100 + 480 + 45 = 625
-	]] 
-	
+	]]
 end
 
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")

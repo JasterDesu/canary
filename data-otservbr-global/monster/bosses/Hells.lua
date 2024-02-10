@@ -60,15 +60,15 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
-    { text = "Prepare for your demise!", yell = true },
-    { text = "You dare challenge my might?", yell = true },
-    { text = "Witness the power that you cannot comprehend!", yell = true },
-    { text = "Your feeble attempts are in vain!", yell = true },
-    { text = "I shall crush you like insects!", yell = true },
-    { text = "This battle will be your last!", yell = true },
-    { text = "Foolish mortal, you face your doom!", yell = true },
-    { text = "Bow before my overwhelming power!", yell = true },
-    { text = "Your destiny is sealed by your own foolishness!", yell = true },
+	{ text = "Prepare for your demise!", yell = true },
+	{ text = "You dare challenge my might?", yell = true },
+	{ text = "Witness the power that you cannot comprehend!", yell = true },
+	{ text = "Your feeble attempts are in vain!", yell = true },
+	{ text = "I shall crush you like insects!", yell = true },
+	{ text = "This battle will be your last!", yell = true },
+	{ text = "Foolish mortal, you face your doom!", yell = true },
+	{ text = "Bow before my overwhelming power!", yell = true },
+	{ text = "Your destiny is sealed by your own foolishness!", yell = true },
 }
 
 monster.summons = {}

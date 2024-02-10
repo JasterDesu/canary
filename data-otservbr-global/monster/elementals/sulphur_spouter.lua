@@ -86,7 +86,6 @@ monster.loot = {
 	{ id = 23533, chance = 1110 }, -- Ring of Red Plasma
 	{ name = "Fire Sword", chance = 770 },
 	{ name = "Crystal Crossbow", chance = 510 },
-
 }
 
 monster.attacks = {

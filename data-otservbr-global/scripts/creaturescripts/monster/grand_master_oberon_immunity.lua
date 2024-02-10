@@ -7,4 +7,5 @@ function grandMasterOberonImmunity.onHealthChange(creature, attacker, primaryDam
 	return true
 end
 
-grandMasterOberonImmunity:register()]]--
+grandMasterOberonImmunity:register()]]
+--

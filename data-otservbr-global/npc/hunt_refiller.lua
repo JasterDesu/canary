@@ -16,11 +16,11 @@ npcConfig.outfit = {
 	lookBody = 6,
 	lookLegs = 0,
 	lookFeet = 116,
-	lookAddons = 0
+	lookAddons = 0,
 }
 
 npcConfig.flags = {
-	floorchange = false
+	floorchange = false,
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -383,7 +383,7 @@ npcConfig.shop = {
 	{ itemName = "elven hoof", clientId = 18994, sell = 115 },
 	{ itemName = "elven scouting glass", clientId = 11464, sell = 50 },
 	{ itemName = "elvish talisman", clientId = 9635, sell = 45 },
-	{ itemName = "emerald tortoise shell", clientId = 39379, sell = 2150 },	
+	{ itemName = "emerald tortoise shell", clientId = 39379, sell = 2150 },
 	{ itemName = "empty honey glass", clientId = 31331, sell = 270 },
 	{ itemName = "enchanted chicken wing", clientId = 5891, sell = 20000 },
 	{ itemName = "energy ball", clientId = 23523, sell = 300 },
@@ -452,7 +452,7 @@ npcConfig.shop = {
 	{ itemName = "golden mask", clientId = 31324, sell = 38000 },
 	{ itemName = "golden skull", clientId = 35580, sell = 9000 },
 	{ itemName = "goosebump leather", clientId = 20205, sell = 650 },
-	{ itemName = "gore horn", clientId = 39377, sell = 2900 },	
+	{ itemName = "gore horn", clientId = 39377, sell = 2900 },
 	{ itemName = "gorerilla mane", clientId = 39392, sell = 2750 },
 	{ itemName = "gorerilla tail", clientId = 39393, sell = 2650 },
 	{ itemName = "grant of arms", clientId = 28824, sell = 950 },
@@ -477,8 +477,8 @@ npcConfig.shop = {
 	{ itemName = "hazardous heart", clientId = 34140, sell = 5000 },
 	{ itemName = "hazardous robe", clientId = 34147, sell = 3000 },
 	{ itemName = "head", clientId = 33937, sell = 3500 },
-	{ itemName = "headpecker beak", clientId = 39387, sell = 2800},
-	{ itemName = "headpecker feather", clientId = 39388, sell = 1300},
+	{ itemName = "headpecker beak", clientId = 39387, sell = 2800 },
+	{ itemName = "headpecker feather", clientId = 39388, sell = 1300 },
 	{ itemName = "heaven blossom", clientId = 3657, sell = 50 },
 	{ itemName = "hellhound slobber", clientId = 9637, sell = 500 },
 	{ itemName = "hellspawn tail", clientId = 10304, sell = 475 },
@@ -496,7 +496,7 @@ npcConfig.shop = {
 	{ itemName = "humongous chunk", clientId = 16139, sell = 540 },
 	{ itemName = "hunter's quiver", clientId = 11469, sell = 80 },
 	{ itemName = "hydra head", clientId = 10282, sell = 600 },
-	{ itemName = "hydrophytes", clientId = 39410, sell = 220},	
+	{ itemName = "hydrophytes", clientId = 39410, sell = 220 },
 	{ itemName = "ice flower", clientId = 30058, sell = 370 },
 	{ itemName = "incantation notes", clientId = 18929, sell = 90 },
 	{ itemName = "infernal heart", clientId = 34139, sell = 2100 },
@@ -511,9 +511,9 @@ npcConfig.shop = {
 	{ itemName = "jagged sickle", clientId = 32595, sell = 150000 },
 	{ itemName = "jaws", clientId = 34014, sell = 3900 },
 	{ itemName = "jewelled belt", clientId = 11470, sell = 180 },
-	{ itemName = "jungle moa claw", clientId = 39404, sell = 160},	
-	{ itemName = "jungle moa egg", clientId = 39405, sell = 250},
-	{ itemName = "jungle moa feather", clientId = 39403, sell = 140},
+	{ itemName = "jungle moa claw", clientId = 39404, sell = 160 },
+	{ itemName = "jungle moa egg", clientId = 39405, sell = 250 },
+	{ itemName = "jungle moa feather", clientId = 39403, sell = 140 },
 	{ itemName = "katex' blood", clientId = 34100, sell = 210 },
 	{ itemName = "key to the drowned library", clientId = 14009, sell = 330 },
 	{ itemName = "kollos shell", clientId = 14077, sell = 420 },
@@ -543,8 +543,8 @@ npcConfig.shop = {
 	{ itemName = "lump of earth", clientId = 10305, sell = 130 },
 	{ itemName = "mad froth", clientId = 17854, sell = 80 },
 	{ itemName = "magic sulphur", clientId = 5904, sell = 8000 },
-	{ itemName = "makara fin", clientId = 39401, sell = 350},
-	{ itemName = "makara tongue", clientId = 39402, sell = 320},
+	{ itemName = "makara fin", clientId = 39401, sell = 350 },
+	{ itemName = "makara tongue", clientId = 39402, sell = 320 },
 	{ itemName = "malice's horn", clientId = 33920, sell = 620000 },
 	{ itemName = "malice's spine", clientId = 33921, sell = 850000 },
 	{ itemName = "malofur's lunchbox", clientId = 30088, sell = 240000 },
@@ -552,7 +552,7 @@ npcConfig.shop = {
 	{ itemName = "mantassin tail", clientId = 11489, sell = 280 },
 	{ itemName = "manticore ear", clientId = 31440, sell = 310 },
 	{ itemName = "manticore tail", clientId = 31439, sell = 220 },
-	{ itemName = "mantosaurus jaw", clientId = 39386, sell = 2800},	
+	{ itemName = "mantosaurus jaw", clientId = 39386, sell = 2800 },
 	{ itemName = "marsh stalker beak", clientId = 17461, sell = 65 },
 	{ itemName = "marsh stalker feather", clientId = 17462, sell = 50 },
 	{ itemName = "maxxenius head", clientId = 29942, sell = 500000 },
@@ -560,7 +560,7 @@ npcConfig.shop = {
 	{ itemName = "medal of valiance", clientId = 31591, sell = 410000 },
 	{ itemName = "megalomania's essence", clientId = 33928, sell = 1900000 },
 	{ itemName = "megalomania's skull", clientId = 33925, sell = 1500000 },
-	{ itemName = "mercurial wing", clientId = 39395, sell = 2500},
+	{ itemName = "mercurial wing", clientId = 39395, sell = 2500 },
 	{ itemName = "milk churn", clientId = 32011, sell = 100 },
 	{ itemName = "ornate crossbow", clientId = 14247, sell = 12000 },
 	{ itemName = "warrior's axe", clientId = 14040, sell = 11000 },
@@ -588,15 +588,15 @@ npcConfig.shop = {
 	{ itemName = "odd organ", clientId = 23510, sell = 410 },
 	{ itemName = "ogre ear stud", clientId = 22188, sell = 180 },
 	{ itemName = "ogre nose ring", clientId = 22189, sell = 210 },
-	{ itemName = "one of timira's many heads", clientId = 39399, sell = 215000},
+	{ itemName = "one of timira's many heads", clientId = 39399, sell = 215000 },
 	{ itemName = "orc leather", clientId = 11479, sell = 30 },
 	{ itemName = "orc tooth", clientId = 10196, sell = 150 },
 	{ itemName = "orcish gear", clientId = 11477, sell = 85 },
 	{ itemName = "pair of hellflayer horns", clientId = 22729, sell = 1300 },
 	{ itemName = "pair of old bracers", clientId = 32705, sell = 500 },
 	{ itemName = "pale worm's scalp", clientId = 32598, sell = 489000 },
-	{ itemName = "parder fur", clientId = 39418, sell = 150},
-	{ itemName = "parder tooth", clientId = 39417, sell = 150},
+	{ itemName = "parder fur", clientId = 39418, sell = 150 },
+	{ itemName = "parder tooth", clientId = 39417, sell = 150 },
 	{ itemName = "patch of fine cloth", clientId = 28821, sell = 1350 },
 	{ itemName = "peacock feather fan", clientId = 21975, sell = 350 },
 	{ itemName = "pelvis bone", clientId = 11481, sell = 30 },
@@ -610,7 +610,7 @@ npcConfig.shop = {
 	{ itemName = "piece of massacre's shell", clientId = 6540, sell = 50000 },
 	{ itemName = "piece of scarab shell", clientId = 9641, sell = 45 },
 	{ itemName = "piece of swampling wood", clientId = 17823, sell = 30 },
-	{ itemName = "piece of timira's sensors", clientId = 39400, sell = 150000},
+	{ itemName = "piece of timira's sensors", clientId = 39400, sell = 150000 },
 	{ itemName = "piece of warrior armor", clientId = 11482, sell = 50 },
 	{ itemName = "pieces of magic chalk", clientId = 18930, sell = 210 },
 	{ itemName = "pig foot", clientId = 9693, sell = 10 },
@@ -627,8 +627,8 @@ npcConfig.shop = {
 	{ itemName = "pool of chitinous glue", clientId = 20207, sell = 480 },
 	{ itemName = "porcelain mask", clientId = 25088, sell = 2000 },
 	{ itemName = "powder herb", clientId = 3739, sell = 10 },
-	{ itemName = "prehemoth claw", clientId = 39383, sell = 2300},
-	{ itemName = "prehemoth horns", clientId = 39382, sell = 3000},
+	{ itemName = "prehemoth claw", clientId = 39383, sell = 2300 },
+	{ itemName = "prehemoth horns", clientId = 39382, sell = 3000 },
 	{ itemName = "pristine worm head", clientId = 27618, sell = 15000 },
 	{ itemName = "protective charm", clientId = 11444, sell = 60 },
 	{ itemName = "purified soul", clientId = 32228, sell = 260 },
@@ -649,10 +649,10 @@ npcConfig.shop = {
 	{ itemName = "rhino hide", clientId = 24388, sell = 175 },
 	{ itemName = "rhino horn", clientId = 24389, sell = 265 },
 	{ itemName = "rhino horn carving", clientId = 24386, sell = 300 },
-	{ itemName = "ripptor claw", clientId = 39389, sell = 2000},
-	{ itemName = "ripptor scales", clientId = 39391, sell = 1200},
+	{ itemName = "ripptor claw", clientId = 39389, sell = 2000 },
+	{ itemName = "ripptor scales", clientId = 39391, sell = 1200 },
 	{ itemName = "rod", clientId = 33929, sell = 2200 },
-	{ itemName = "rogue naga scales", clientId = 39416, sell = 570},
+	{ itemName = "rogue naga scales", clientId = 39416, sell = 570 },
 	{ itemName = "roots", clientId = 33938, sell = 1200 },
 	{ itemName = "rope belt", clientId = 11492, sell = 66 },
 	{ itemName = "rorc egg", clientId = 18996, sell = 120 },
@@ -660,7 +660,7 @@ npcConfig.shop = {
 	{ itemName = "rotten heart", clientId = 31589, sell = 74000 },
 	{ itemName = "rotten piece of cloth", clientId = 10291, sell = 30 },
 	{ itemName = "sabretooth", clientId = 10311, sell = 400 },
-	{ itemName = "sabretooth fur", clientId = 39378, sell = 2500},
+	{ itemName = "sabretooth fur", clientId = 39378, sell = 2500 },
 	{ itemName = "safety pin", clientId = 11493, sell = 120 },
 	{ itemName = "sample of monster blood", clientId = 27874, sell = 250 },
 	{ itemName = "sandcrawler shell", clientId = 10456, sell = 20 },
@@ -698,8 +698,8 @@ npcConfig.shop = {
 	{ itemName = "small oil lamp", clientId = 2933, sell = 150 },
 	{ itemName = "small pitchfork", clientId = 11513, sell = 70 },
 	{ itemName = "small treasure chest", clientId = 35571, sell = 500 },
-	{ itemName = "small tropical fish", clientId = 39408, sell = 380},
-	{ itemName = "smoldering eye", clientId = 39543, sell = 470000},	
+	{ itemName = "small tropical fish", clientId = 39408, sell = 380 },
+	{ itemName = "smoldering eye", clientId = 39543, sell = 470000 },
 	{ itemName = "snake skin", clientId = 9694, sell = 400 },
 	{ itemName = "sniper gloves", clientId = 5875, sell = 2000 },
 	{ itemName = "solid rage", clientId = 23517, sell = 310 },
@@ -724,7 +724,7 @@ npcConfig.shop = {
 	{ itemName = "spitter nose", clientId = 14078, sell = 340 },
 	{ itemName = "spooky blue eye", clientId = 9642, sell = 95 },
 	{ itemName = "srezz' eye", clientId = 34103, sell = 300 },
-	{ itemName = "stalking seeds", clientId = 39384, sell = 1800},
+	{ itemName = "stalking seeds", clientId = 39384, sell = 1800 },
 	{ itemName = "star herb", clientId = 3736, sell = 15 },
 	{ itemName = "stone herb", clientId = 3735, sell = 20 },
 	{ itemName = "stone wing", clientId = 10278, sell = 120 },
@@ -733,8 +733,8 @@ npcConfig.shop = {
 	{ itemName = "strange proto matter", clientId = 23513, sell = 300 },
 	{ itemName = "strange symbol", clientId = 3058, sell = 200 },
 	{ itemName = "striped fur", clientId = 10293, sell = 50 },
-	{ itemName = "sulphider shell", clientId = 39375, sell = 2200},
-	{ itemName = "sulphur powder", clientId = 39376, sell = 1900},
+	{ itemName = "sulphider shell", clientId = 39375, sell = 2200 },
+	{ itemName = "sulphur powder", clientId = 39376, sell = 1900 },
 	{ itemName = "swamp grass", clientId = 9686, sell = 20 },
 	{ itemName = "swampling moss", clientId = 17822, sell = 20 },
 	{ itemName = "swarmer antenna", clientId = 14076, sell = 130 },
@@ -768,9 +768,9 @@ npcConfig.shop = {
 	{ itemName = "tunnel tyrant shell", clientId = 27596, sell = 700 },
 	{ itemName = "turtle shell", clientId = 5899, sell = 90 },
 	{ itemName = "tusk", clientId = 3044, sell = 100 },
-	{ itemName = "two-headed turtle heads", clientId = 39409, sell = 460},
+	{ itemName = "two-headed turtle heads", clientId = 39409, sell = 460 },
 	{ itemName = "undead heart", clientId = 10450, sell = 200 },
-	{ itemName = "undertaker fangs", clientId = 39380, sell = 2700},
+	{ itemName = "undertaker fangs", clientId = 39380, sell = 2700 },
 	{ itemName = "unholy bone", clientId = 10316, sell = 480 },
 	{ itemName = "urmahlullus mane", clientId = 31623, sell = 490000 },
 	{ itemName = "urmahlullus paws", clientId = 31624, sell = 245000 },
@@ -1278,10 +1278,10 @@ npcConfig.shop = {
 	{ itemName = "hollow stampor hoof", clientId = 12314, sell = 400 },
 	{ itemName = "huge chunk of crude iron", clientId = 5892, sell = 15000 },
 	{ itemName = "hydra egg", clientId = 4839, sell = 500 },
-	{ itemName = "hydrophytes", clientId = 39410, sell = 220},
+	{ itemName = "hydrophytes", clientId = 39410, sell = 220 },
 	{ itemName = "iron helmet", clientId = 3353, sell = 150 },
 	{ itemName = "jacket", clientId = 3561, sell = 1 },
-	{ itemName = "jungle moa claw", clientId = 39404, sell = 160},
+	{ itemName = "jungle moa claw", clientId = 39404, sell = 160 },
 	{ itemName = "katana", clientId = 3300, sell = 35 },
 	{ itemName = "knight armor", clientId = 3370, sell = 5000 },
 	{ itemName = "knight axe", clientId = 3318, sell = 2000 },
@@ -1304,7 +1304,7 @@ npcConfig.shop = {
 	{ itemName = "machete", clientId = 3308, sell = 6 },
 	{ itemName = "magma clump", clientId = 16130, sell = 570 },
 	{ itemName = "mandrake", clientId = 5014, sell = 5000 },
-	{ itemName = "mantosaurus jaw", clientId = 39386, sell = 2800},
+	{ itemName = "mantosaurus jaw", clientId = 39386, sell = 2800 },
 	{ itemName = "marlin trophy", clientId = 902, sell = 5000 },
 	{ itemName = "mastermind potion", clientId = 7440, sell = 500 },
 	{ itemName = "maxilla", clientId = 12315, sell = 250 },
@@ -1413,7 +1413,7 @@ npcConfig.shop = {
 	{ itemName = "slimy leaf tentacle", clientId = 21197, sell = 320 },
 	{ itemName = "sling herb", clientId = 3738, sell = 10 },
 	{ itemName = "small axe", clientId = 3462, sell = 5 },
-	{ itemName = "smoldering eye", clientId = 39543, sell = 470000},
+	{ itemName = "smoldering eye", clientId = 39543, sell = 470000 },
 	{ itemName = "snakebite rod", clientId = 3066, sell = 100 },
 	{ itemName = "soldier helmet", clientId = 3375, sell = 16 },
 	{ itemName = "souleater trophy", clientId = 11679, sell = 7500 },
@@ -1470,7 +1470,7 @@ npcConfig.shop = {
 	{ itemName = "viking helmet", clientId = 3367, sell = 66 },
 	{ itemName = "viking shield", clientId = 3431, sell = 85 },
 	{ itemName = "wailing widow's necklace", clientId = 10412, sell = 3000 },
-	{ itemName = "war crystal", clientId = 9654,  sell = 460 },
+	{ itemName = "war crystal", clientId = 9654, sell = 460 },
 	{ itemName = "war hammer", clientId = 3279, sell = 1200 },
 	{ itemName = "warrior helmet", clientId = 3369, sell = 5000 },
 	{ itemName = "warrior's shield", clientId = 14042, sell = 9000 },
@@ -1494,20 +1494,19 @@ npcConfig.shop = {
 	{ itemName = "zaoan halberd", clientId = 10406, sell = 500 },
 	{ itemName = "zaoan sword", clientId = 10390, sell = 30000 },
 	{ itemName = "zaogun's shoulderplates", clientId = 10414, sell = 150 },
-	
-	{ itemName = "all loot in pouch", clientId = ITEM_GOLD_POUCH, sell = 1 },
 
+	{ itemName = "all loot in pouch", clientId = ITEM_GOLD_POUCH, sell = 1 },
 }
 
 local function greetCallback(npc, creature)
-    local player = Player(creature)
-    if player and not HUNT_REFILLER[player:getId()] or (HUNT_REFILLER[player:getId()] and HUNT_REFILLER[player:getId()].npc ~= npc:getId()) then
-        npcHandler:removeInteraction(npc, creature)
-        return false
-    end
-    
-    npcHandler:setMessage(MESSAGE_GREET, "Hello |PLAYERNAME|, let's {trade} and refill?")
-    return true
+	local player = Player(creature)
+	if player and not HUNT_REFILLER[player:getId()] or (HUNT_REFILLER[player:getId()] and HUNT_REFILLER[player:getId()].npc ~= npc:getId()) then
+		npcHandler:removeInteraction(npc, creature)
+		return false
+	end
+
+	npcHandler:setMessage(MESSAGE_GREET, "Hello |PLAYERNAME|, let's {trade} and refill?")
+	return true
 end
 
 -- On buy npc shop message
@@ -1519,20 +1518,19 @@ npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name
 	player:sendTextMessage(MESSAGE_INFO_DESCR, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
 end
 -- On check npc shop message (look item)
-npcType.onCheckItem = function(npc, player, clientId, subType)
-end
+npcType.onCheckItem = function(npc, player, clientId, subType) end
 -- On creature say callback
 local function creatureSayCallback(npc, creature, type, message)
-    if not npcHandler:checkInteraction(npc, creature) then
-        return false
-    end
+	if not npcHandler:checkInteraction(npc, creature) then
+		return false
+	end
 
-    if MsgContains(message, "Trade") then
-        npcHandler:say({
-            "It is a pleasure."
-        }, npc, creature, 3000)
-    end
-    return true
+	if MsgContains(message, "Trade") then
+		npcHandler:say({
+			"It is a pleasure.",
+		}, npc, creature, 3000)
+	end
+	return true
 end
 
 npcType:register(npcConfig)

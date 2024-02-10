@@ -84,7 +84,6 @@ monster.loot = {
 	{ name = "Doublet", chance = 2880 },
 	{ name = "Silver Brooch", chance = 1160 },
 	{ name = "Emerald Bangle", chance = 780 },
-
 }
 
 monster.attacks = {

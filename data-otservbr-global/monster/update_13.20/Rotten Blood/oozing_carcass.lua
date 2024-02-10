@@ -10,7 +10,7 @@ monster.outfit = {
 	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
-	lookMount = 0
+	lookMount = 0,
 }
 
 monster.health = 27500
@@ -30,12 +30,12 @@ monster.Bestiary = {
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
-	Locations = "Sanctuary."
-	}
+	Locations = "Sanctuary.",
+}
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 10,
 }
 
 monster.strategiesTarget = {
@@ -61,17 +61,15 @@ monster.flags = {
 	isBlockable = false,
 	canWalkOnEnergy = false,
 	canWalkOnFire = true,
-	canWalkOnPoison = true
+	canWalkOnPoison = true,
 }
 
 monster.light = {
 	level = 0,
-	color = 0
+	color = 0,
 }
 
-monster.voices = {
-
-}
+monster.voices = {}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 9000, maxCount = 1 },
@@ -88,18 +86,17 @@ monster.loot = {
 	{ name = "spellbook of warding", chance = 5084, maxCount = 1 },
 }
 
-
 monster.attacks = {
-	{ name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1900, effect = CONST_ME_DRAWBLOOD },
-	{ name ="combat", interval = 6000, chance = 25, type = COMBAT_HOLYDAMAGE, minDamage = -650, maxDamage = -1950, length = 8, spread = 3, effect = CONST_ME_HOLYAREA, target = false },
-	{ name ="combat", interval = 2750, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -600, maxDamage = -2000, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = false },
-	{ name ="combat", interval = 2500, chance = 22, type = COMBAT_DEATHDAMAGE, minDamage = -600, maxDamage = -1800, radius = 3, effect = CONST_ME_MORTAREA, target = false },
-	{ name ="combat", interval = 3300, chance = 24, type = COMBAT_ICEDAMAGE, minDamage = -500, maxDamage = -1700, length = 4, spread = 0, effect = CONST_ME_ICEATTACK, target = false },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1900, effect = CONST_ME_DRAWBLOOD },
+	{ name = "combat", interval = 6000, chance = 25, type = COMBAT_HOLYDAMAGE, minDamage = -650, maxDamage = -1950, length = 8, spread = 3, effect = CONST_ME_HOLYAREA, target = false },
+	{ name = "combat", interval = 2750, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -600, maxDamage = -2000, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 2500, chance = 22, type = COMBAT_DEATHDAMAGE, minDamage = -600, maxDamage = -1800, radius = 3, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 3300, chance = 24, type = COMBAT_ICEDAMAGE, minDamage = -500, maxDamage = -1700, length = 4, spread = 0, effect = CONST_ME_ICEATTACK, target = false },
 }
 
 monster.defenses = {
 	defense = 100,
-	armor = 102
+	armor = 102,
 }
 
 monster.elements = {
@@ -111,15 +108,15 @@ monster.elements = {
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = 35 },
-	{ type = COMBAT_HOLYDAMAGE , percent = -25 },
-	{ type = COMBAT_DEATHDAMAGE , percent = 40 }
+	{ type = COMBAT_HOLYDAMAGE, percent = -25 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 40 },
 }
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
 	{ type = "outfit", condition = false },
 	{ type = "invisible", condition = true },
-	{ type = "bleed", condition = false }
+	{ type = "bleed", condition = false },
 }
 
 mType:register(monster)

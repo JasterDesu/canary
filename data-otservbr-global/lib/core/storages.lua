@@ -2803,14 +2803,14 @@ Storage = {
 				},
 			},
 		},
-        U13_20 = { -- update 13.20 - Reserved Storages 47951 - 48000
-            RottenBlood = {
-                QuestLine = 47951,
-                Access = {
-                    Door = 47952,
-                    SacrificialPlate = 47953,
-                    Hunts = 47954,
-                },
+		U13_20 = { -- update 13.20 - Reserved Storages 47951 - 48000
+			RottenBlood = {
+				QuestLine = 47951,
+				Access = {
+					Door = 47952,
+					SacrificialPlate = 47953,
+					Hunts = 47954,
+				},
 				Bosses = {
 					Chargoz = 47955,
 					Ichgahal = 47956,
@@ -2818,11 +2818,8 @@ Storage = {
 					Vemiath = 47958,
 					Bakragore = 47959,
 				},
-            },
-        },
-
-
-
+			},
+		},
 	},
 	-- Reserved storage from 63951 - 63999
 	ThaisExhibition = {

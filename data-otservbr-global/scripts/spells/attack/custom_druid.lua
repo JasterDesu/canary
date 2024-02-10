@@ -10,7 +10,7 @@ combat:addCondition(condition)
 
 function onGetFormulaValues(player, level, maglevel)
 	local min = (level * 2) + (maglevel * 12.5) -- 254 108 -- 508 + 1890 = 2398
-	local max = (level * 2.5) + (maglevel * 17.3) 
+	local max = (level * 2.5) + (maglevel * 17.3)
 	return -min, -max
 end
 

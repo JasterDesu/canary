@@ -914,12 +914,12 @@ QuestDoorAction = {
 			{ x = 33782, y = 32576, z = 12 },
 		},
 	},
-    [Storage.Quest.U13_20.RottenBlood.Access.Door] = {
-        itemId = false,
-        itemPos = {
-            { x = 32971, y = 32398, z = 9 },
-        },
-    },
+	[Storage.Quest.U13_20.RottenBlood.Access.Door] = {
+		itemId = false,
+		itemPos = {
+			{ x = 32971, y = 32398, z = 9 },
+		},
+	},
 }
 
 QuestDoorUnique = {

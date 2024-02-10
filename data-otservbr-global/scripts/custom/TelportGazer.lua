@@ -1,19 +1,19 @@
 local config = {
-	{ name="Buried Cathedral", position = Position(32722, 32268, 8) },
-    { name="Buster Spectre", position = Position(33092, 32389, 8) },
-    { name="Gazer Spectre", position = Position(32674, 32650, 7) },
-    { name="Ripper Spectre", position = Position(32691, 32236,7) },
-   }
+	{ name = "Buried Cathedral", position = Position(32722, 32268, 8) },
+	{ name = "Buster Spectre", position = Position(33092, 32389, 8) },
+	{ name = "Gazer Spectre", position = Position(32674, 32650, 7) },
+	{ name = "Ripper Spectre", position = Position(32691, 32236, 7) },
+}
 
 local teleportGazer = MoveEvent()
 function teleportGazer.onStepIn(creature, item, position, fromPosition)
 	local player = creature:getPlayer()
-	local window = ModalWindow {
+	local window = ModalWindow({
 		title = "Teleport Hunts",
-		message = "Hunts"
-	}
+		message = "Hunts",
+	})
 	for i, info in pairs(config) do
-		window:addChoice(string.format("%s", info.name), function (player, button, choice)
+		window:addChoice(string.format("%s", info.name), function(player, button, choice)
 			if button.name ~= "Select" then
 				return true
 			end

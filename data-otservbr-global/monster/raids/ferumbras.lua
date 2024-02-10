@@ -29,7 +29,6 @@ monster.manaCost = 0
 --	"FerumbrasEvent",
 --}
 
-
 monster.changeTarget = {
 	interval = 5000,
 	chance = 8,

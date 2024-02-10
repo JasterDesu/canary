@@ -22,24 +22,24 @@ taskCreature:register()--]]
 local taskCreature = CreatureEvent("TaskCreature")
 
 function taskCreature.onDeath(creature, corpse, killer, mostDamageKiller, unjustified, mostDamageUnjustified)
-    if not creature:isMonster() then
-        return false
-    end
+	if not creature:isMonster() then
+		return false
+	end
 
-    local targetName = creature:getName():lower()
-    local data = getTaskByMonsterName(targetName)
+	local targetName = creature:getName():lower()
+	local data = getTaskByMonsterName(targetName)
 
-    if data and killer:isPlayer() and not killer:getMaster() then
-        if killer:hasStartedTask(data.storage) then
-            if killer:getStorageValue(10102) >= os.time() then
-                killer:addTaskKill(data.storage, 2)
-            else
-                killer:addTaskKill(data.storage, 1)
-            end
-        end
-    end
+	if data and killer:isPlayer() and not killer:getMaster() then
+		if killer:hasStartedTask(data.storage) then
+			if killer:getStorageValue(10102) >= os.time() then
+				killer:addTaskKill(data.storage, 2)
+			else
+				killer:addTaskKill(data.storage, 1)
+			end
+		end
+	end
 
-    return true
+	return true
 end
 
 taskCreature:register()

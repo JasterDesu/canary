@@ -16,11 +16,11 @@ npcConfig.outfit = {
 	lookBody = 19,
 	lookLegs = 76,
 	lookFeet = 114,
-	lookAddons = 3
+	lookAddons = 3,
 }
 
 npcConfig.flags = {
-	floorchange = false
+	floorchange = false,
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -65,7 +65,7 @@ npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 npcConfig.currency = 37317
 
 npcConfig.shop = {
-	
+
 	{ name = "Dust Refil", clientId = 19082, buy = 3000 },
 	{ name = "Stamina Refil", clientId = 33893, buy = 3000 },
 	{ name = "Teleport Cube", clientId = 31633, buy = 800 },
@@ -105,7 +105,6 @@ npcConfig.shop = {
 	{ name = "major crystalline token", clientId = 16129, buy = 50 },
 	{ name = "bag you desire", clientId = 34109, buy = 2000 },
 	{ name = "primal bag", clientId = 39546, buy = 2500 },
-	
 }
 
 -- On buy npc shop message
@@ -117,7 +116,6 @@ npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name
 	player:sendTextMessage(MESSAGE_INFO_DESCR, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
 end
 -- On check npc shop message (look item)
-npcType.onCheckItem = function(npc, player, clientId, subType)
-end
+npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 npcType:register(npcConfig)
