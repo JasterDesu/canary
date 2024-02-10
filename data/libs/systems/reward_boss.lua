@@ -1,50 +1,73 @@
 -- Unused function
-function PushValues(buffer, sep, ...)
-	local argv = { ... }
-	local argc = #argv
-	for k, v in ipairs(argv) do
-		table.insert(buffer, v)
-		if k < argc and sep then
-			table.insert(buffer, sep)
-		end
-	end
-end
-
-function PushSeparated(buffer, sep, ...)
-	local argv = { ... }
-	local argc = #argv
-	for k, v in ipairs(argv) do
-		table.insert(buffer, v)
-		if k < argc and sep then
-			table.insert(buffer, sep)
-		end
-	end
-end
-
-function InsertItems(buffer, info, parent, items)
-	local start = info.running
-	for _, item in ipairs(items) do
-		if item ~= nil then
-			if item:getId() == ITEM_REWARD_CONTAINER then
-				table.insert(buffer, "(")
-				PushSeparated(buffer, ",", info.playerGuid, 0, parent, item:getId(), item:getSubType(), db.escapeString(item:serializeAttributes()))
-				table.insert(buffer, "),")
-			else
-				info.running = info.running + 1
-				table.insert(buffer, "(")
-				PushSeparated(buffer, ",", info.playerGuid, parent, info.running, item:getId(), item:getSubType(), db.escapeString(item:serializeAttributes()))
-				table.insert(buffer, "),")
+	function PushValues(buffer, sep, ...)
+		local argv = { ... }
+		local argc = #argv
+		for k, v in ipairs(argv) do
+			table.insert(buffer, v)
+			if k < argc and sep then
+				table.insert(buffer, sep)
 			end
-
-			if item:isContainer() then
-				local size = item:getSize()
-				if size > 0 then
-					local subItems = {}
-					for i = 1, size do
-						table.insert(subItems, item:getItem(i - 1))
+		end
+	end
+	
+	function PushSeparated(buffer, sep, ...)
+		local argv = { ... }
+		local argc = #argv
+		for k, v in ipairs(argv) do
+			table.insert(buffer, v)
+			if k < argc and sep then
+				table.insert(buffer, sep)
+			end
+		end
+	end
+	
+	function InsertItems(buffer, info, parent, items)
+		local start = info.running
+		for _, item in ipairs(items) do
+			if item ~= nil then
+				if item:getId() == ITEM_REWARD_CONTAINER then
+					table.insert(buffer, "(")
+					PushSeparated(buffer, ",", info.playerGuid, 0, parent, item:getId(), item:getSubType(), db.escapeString(item:serializeAttributes()))
+					table.insert(buffer, "),")
+				else
+					info.running = info.running + 1
+					table.insert(buffer, "(")
+					PushSeparated(buffer, ",", info.playerGuid, parent, info.running, item:getId(), item:getSubType(), db.escapeString(item:serializeAttributes()))
+					table.insert(buffer, "),")
+				end
+	
+				if item:isContainer() then
+					local size = item:getSize()
+					if size > 0 then
+						local subItems = {}
+						for i = 1, size do
+							table.insert(subItems, item:getItem(i - 1))
+						end
+	
+						InsertItems(buffer, info, info.running, subItems)
 					end
-
-					InsertItems(buffer, info, info.running, subItems)
+				end
+			end
+		end
+		return info.running - start
+	end
+	
+	function Container:addRewardBossItems(itemList)
+		for itemId, lootInfo in pairs(itemList) do
+			local iType = ItemType(itemId)
+			if iType then
+				local itemCount = lootInfo.count
+				local charges = iType:getCharges()
+				if charges > 0 then
+					itemCount = charges
+					logger.debug("Adding item with 'id' to the reward container, item charges {}", iType:getId(), charges)
+				end
+				if iType:isStackable() or iType:getCharges() ~= 0 then
+					self:addItem(itemId, itemCount, INDEX_WHEREEVER, FLAG_NOLIMIT)
+				else
+					for i = 1, itemCount do
+						self:addItem(itemId, 1, INDEX_WHEREEVER, FLAG_NOLIMIT)
+					end
 				end
 			end
 		end
@@ -110,5 +133,20 @@ function ResetAndSetTargetList(creature)
 			stats.playerId = target:getId() -- Update player id
 			stats.active = true
 		end
+	
+		local bossId = creature:getId()
+		local info = _G.GlobalBosses[bossId]
+		-- Reset all players' status
+		for _, player in pairs(info) do
+			player.active = false
+		end
+		-- Set all players in boss' target list as active in the fight
+		local targets = creature:getTargetList()
+		for _, target in ipairs(targets) do
+			if target:isPlayer() then
+				local stats = GetPlayerStats(bossId, target:getGuid(), true)
+				stats.playerId = target:getId() -- Update player id
+				stats.active = true
+			end
+		end
 	end
-end

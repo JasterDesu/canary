@@ -36,4 +36,3 @@ FROM ubuntu:23.04 AS prod
 COPY --from=build /srv/build/build/linux-release/bin/canary /bin/canary
 WORKDIR /srv/canary
 ENTRYPOINT ["/srv/canary/start.sh", "canary"]
-

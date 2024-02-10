@@ -200,9 +200,9 @@ Blessings.getBlessingsCost = function(level, byCommand)
 	end
 	local cost
 	if level <= 30 then
-		cost = 2500
+		cost = 2000
 	elseif level >= 120 then
-		cost = 25000
+		cost = 20000
 	else
 		cost = (level - 20) * 200
 	end

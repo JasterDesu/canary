@@ -24929,8 +24929,12 @@
 		<attribute key="type" value="door"/>
 	</item>
 	<item id="11241" article="a" name="closed door" editorsuffix="(it is locked)">
-		<attribute key="type" value="door"/>
 		<attribute key="description" value="It is locked."/>
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="11242" article="a" name="closed door">
+		<attribute key="type" value="door"/>
 		<attribute key="blockProjectile" value="1"/>
 	</item>
 	<item id="11242" article="a" name="closed door">

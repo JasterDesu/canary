@@ -1,5 +1,5 @@
 local doorIds = {}
-for index, value in ipairs(LevelDoorTable) do
+for index, value in ipairs(QuestDoorTable) do
 	if not table.contains(doorIds, value.openDoor) then
 		table.insert(doorIds, value.openDoor)
 	end
@@ -9,17 +9,17 @@ for index, value in ipairs(LevelDoorTable) do
 	end
 end
 
-local levelDoor = Action()
-function levelDoor.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	for index, value in ipairs(LevelDoorTable) do
+local questDoor = Action()
+function questDoor.onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	for index, value in ipairs(QuestDoorTable) do
 		if value.closedDoor == item.itemid then
-			if item.actionid > 0 and player:getLevel() >= item.actionid - 1000 then
+			if item.actionid > 0 and player:getStorageValue(item.actionid) ~= -1 then
 				item:transform(value.openDoor)
 				item:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_OPEN_DOOR)
 				player:teleportTo(toPosition, true)
 				return true
 			else
-				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Only the worthy may pass.")
+				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The door seems to be sealed against unwanted intruders.")
 				return true
 			end
 		end
@@ -32,7 +32,7 @@ function levelDoor.onUse(player, item, fromPosition, target, toPosition, isHotke
 end
 
 for index, value in ipairs(doorIds) do
-	levelDoor:id(value)
+	questDoor:id(value)
 end
 
-levelDoor:register()
+questDoor:register()

@@ -1,5 +1,5 @@
 local config = {
-	boss = { name = "Magma Bubble" },
+	boss = "Magma Bubble",
 	encounter = "Magma Bubble",
 	requiredLevel = 500,
 	playerPositions = {

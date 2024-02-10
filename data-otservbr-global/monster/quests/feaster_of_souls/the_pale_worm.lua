@@ -98,11 +98,11 @@ monster.loot = {
 	{ name = "spooky hood", chance = 150 },
 	{ name = "pale worm's scalp", chance = 1200 },
 	{ name = "spectral scrap of cloth", chance = 250 },
-	{ name = "fabulous legs", chance =350 },
-	{ name = "phantasmal axe", chance = 350 },
-	{ name = "ghost backpack", chance = 350 },
-	{ id = 32621, chance = 600 }, -- Ring of souls
-	{ name = "soulful legs", chance = 350 },
+	{ name = "fabulous legs", chance = 150 },
+	{ name = "phantasmal axe", chance = 150 },
+	{ name = "ghost backpack", chance = 150 },
+	{ id = 32621, chance = 400 }, -- Ring of souls
+	{ name = "soulful legs", chance = 150 },
 }
 
 monster.attacks = {
@@ -117,24 +117,24 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 75,
-	armor = 75,
+	defense = 150,
+	armor = 150,
 	--	mitigation = ???,
 	{ name = "speed", interval = 10000, chance = 40, speedChange = 510, effect = CONST_ME_MAGIC_GREEN, target = false, duration = 20000 },
 	{ name = "combat", interval = 5000, chance = 60, type = COMBAT_HEALING, minDamage = 1000, maxDamage = 2500, effect = CONST_ME_MAGIC_BLUE, target = false },
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 10 },
-	{ type = COMBAT_ENERGYDAMAGE, percent = 10 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 10 },
-	{ type = COMBAT_FIREDAMAGE, percent = 10 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 5 },
+	{ type = COMBAT_ENERGYDAMAGE, percent = 5 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 5 },
+	{ type = COMBAT_FIREDAMAGE, percent = 5 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = 10 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 10 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 10 },
+	{ type = COMBAT_ICEDAMAGE, percent = 5 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 5 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 5 },
 }
 
 monster.immunities = {
