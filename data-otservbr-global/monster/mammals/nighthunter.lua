@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Nighthunter")
 local monster = {}
 
 monster.description = "a nighthunter"
-monster.experience = 12647
+monster.experience = 18647
 monster.outfit = {
 	lookType = 1552,
 	lookHead = 85,
@@ -85,6 +85,7 @@ monster.loot = {
 	{ name = "Warrior's Axe", chance = 1400 },
 	{ name = "Spellbook of Mind Control", chance = 960 },
 	{ name = "Stone Skin Amulet", chance = 850 },
+
 }
 
 monster.attacks = {

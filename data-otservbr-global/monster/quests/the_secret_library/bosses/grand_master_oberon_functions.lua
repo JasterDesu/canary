@@ -46,7 +46,7 @@ local function healOberon(monster)
 	monster:addHealth(monster:getMaxHealth())
 end
 
-function SendOberonAsking(monster)
+--[[function SendOberonAsking(monster)
 	monster:registerEvent("OberonImmunity")
 	local random = math.random(#GrandMasterOberonAsking)
 	monster:say(GrandMasterOberonAsking[random].msg, TALKTYPE_MONSTER_SAY)
@@ -55,4 +55,4 @@ function SendOberonAsking(monster)
 	healOberon(monster)
 
 	Game.createMonster(GrandMasterOberonConfig.Monster[math.random(#GrandMasterOberonConfig.Monster)], monster:getPosition(), true, true)
-end
+end]]--

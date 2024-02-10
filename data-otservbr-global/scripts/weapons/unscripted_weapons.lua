@@ -13,7 +13,7 @@ local weapons = {
 			{ "Elder Druid" },
 		},
 	},
-	{
+	--[[{
 		-- sanguine rod
 		itemId = 43885,
 		type = WEAPON_WAND,
@@ -26,7 +26,7 @@ local weapons = {
 			{ "Druid", true },
 			{ "Elder Druid" },
 		},
-	},
+	},--]]
 	{
 		-- grand sanguine coil
 		itemId = 43883,
@@ -41,7 +41,7 @@ local weapons = {
 			{ "Master Sorcerer" },
 		},
 	},
-	{
+--[[	{
 		-- sanguine coil
 		itemId = 43882,
 		type = WEAPON_WAND,
@@ -54,7 +54,7 @@ local weapons = {
 			{ "Sorcerer", true },
 			{ "Master Sorcerer" },
 		},
-	},
+	},--]]
 	{
 		-- grand sanguine crossbow
 		itemId = 43880,
@@ -589,7 +589,7 @@ local weapons = {
 			{ "Royal Paladin" },
 		},
 	},
-	{
+	--[[{
 		-- soulhexer rod
 		itemId = 34091,
 		type = WEAPON_WAND,
@@ -614,7 +614,7 @@ local weapons = {
 			{ "Sorcerer", true },
 			{ "Master Sorcerer" },
 		},
-	},
+	},--]]
 	{
 		-- soulpiercer crossbow
 		itemId = 34089,
@@ -2376,7 +2376,7 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 60,
 		unproperly = true,
-		breakchance = 2,
+		breakchance = 0,
 	},
 	{
 		-- umbral master crossbow
@@ -2712,7 +2712,7 @@ local weapons = {
 		-- mean paladin spear
 		itemid = 17110,
 		type = WEAPON_MISSILE,
-		breakchance = 3,
+		breakchance = 0,
 		vocation = {
 			{ "None", true },
 		},
@@ -4512,7 +4512,7 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 25,
 		unproperly = true,
-		breakchance = 3,
+		breakchance = 0,
 	},
 	{
 		-- assassin star
@@ -4528,7 +4528,7 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 42,
 		unproperly = true,
-		breakchance = 1,
+		breakchance = 0,
 	},
 	{
 		-- onyx arrow
@@ -4611,7 +4611,7 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 20,
 		unproperly = true,
-		breakchance = 6,
+		breakchance = 0,
 	},
 	{
 		-- ripper lance
@@ -5108,7 +5108,7 @@ local weapons = {
 		-- spear
 		itemId = 3277,
 		type = WEAPON_MISSILE,
-		breakchance = 3,
+		breakchance = 0,
 	},
 	{
 		-- hatchet

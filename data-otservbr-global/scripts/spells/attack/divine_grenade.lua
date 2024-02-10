@@ -9,7 +9,7 @@ function onGetFormulaValues(player, level, maglevel)
 
 	local grade = player:upgradeSpellsWOD("Divine Grenade")
 
-	local multiplier = 1.0
+	local multiplier = 1.5
 	if grade ~= WHEEL_GRADE_NONE then
 		local multiplierByGrade = { 1.3, 1.6, 2.0 }
 		multiplier = multiplierByGrade[grade]

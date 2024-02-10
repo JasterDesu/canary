@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Timira The Many-Headed"
 monster.description = "Timira the Many-Headed"
-monster.experience = 45500
+monster.experience = 65500
 monster.outfit = {
 	lookType = 1542,
 	lookAddons = 3,
@@ -14,8 +14,8 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 75000
-monster.maxHealth = 75000
+monster.health = 175000
+monster.maxHealth = 175000
 monster.race = "blood"
 monster.corpse = 39712
 monster.speed = 120
@@ -74,19 +74,17 @@ monster.loot = {
 	{ name = "one of timira's many heads", chance = 2041 },
 	{ name = "giant sapphire", chance = 2041 },
 	{ name = "giant topaz", chance = 2041 },
-	{ name = "dawnfire sherwani", chance = 200 },
-	{ name = "frostflower boots", chance = 200 },
-	{ name = "feverbloom boots", chance = 200 },
-	{ id = 39233, chance = 200 }, -- enchanted turtle amulet
-	{ name = "midnight tunic", chance = 200 },
-	{ name = "midnight sarong", chance = 200 },
-	{ name = "naga quiver", chance = 200 },
-	{ name = "naga sword", chance = 200 },
-	{ name = "naga axe", chance = 200 },
-	{ name = "naga club", chance = 200 },
-	{ name = "naga wand", chance = 200 },
-	{ name = "naga rod", chance = 200 },
-	{ name = "naga crossbow", chance = 200 },
+	{ name = "dawnfire sherwani", chance = 1000 },
+	{ name = "frostflower boots", chance = 1000 },
+	{ id = 39233, chance = 1000 }, -- enchanted turtle amulet
+	{ name = "midnight tunic", chance = 1000 },
+	{ name = "midnight sarong", chance = 1000 },
+	{ name = "naga sword", chance = 1000 },
+	{ name = "naga axe", chance = 1000 },
+	{ name = "naga club", chance = 1000 },
+	{ name = "naga wand", chance = 1000 },
+	{ name = "naga rod", chance = 1000 },
+	{ name = "naga crossbow", chance = 1000 },
 }
 
 monster.attacks = {

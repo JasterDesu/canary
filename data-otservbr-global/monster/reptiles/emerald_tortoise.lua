@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Emerald Tortoise")
 local monster = {}
 
 monster.description = "an emerald tortoise"
-monster.experience = 12129
+monster.experience = 18129
 monster.outfit = {
 	lookType = 1550,
 	lookHead = 85,
@@ -89,6 +89,7 @@ monster.loot = {
 	{ id = 282, chance = 2420 }, -- Giant Shimmering Pearl (Green)
 	{ id = 3039, chance = 2420 }, -- Red Gem
 	{ name = "Black Pearl", chance = 2160, minCount = 1, maxCount = 2 },
+
 }
 
 monster.attacks = {

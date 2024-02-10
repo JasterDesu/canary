@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Undertaker")
 local monster = {}
 
 monster.description = "an undertaker"
-monster.experience = 13543
+monster.experience = 19543
 monster.outfit = {
 	lookType = 1551,
 	lookHead = 85,
@@ -86,6 +86,7 @@ monster.loot = {
 	{ name = "Butterfly Ring", chance = 1240 },
 	{ name = "Wand of Voodoo", chance = 960 },
 	{ name = "Violet Gem", chance = 850 },
+
 }
 
 monster.attacks = {

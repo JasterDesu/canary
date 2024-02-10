@@ -16,6 +16,9 @@ ExerciseWeaponsTable = {
 	[44065] = { skill = SKILL_SHIELD },
 	[44066] = { skill = SKILL_SHIELD },
 	[44067] = { skill = SKILL_SHIELD },
+	[44218] = { skill = SKILL_FIST },
+	[44219] = { skill = SKILL_FIST },
+	[44217] = { skill = SKILL_FIST },
 	-- ROD
 	[28544] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
 	[28556] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
@@ -114,9 +117,12 @@ function ExerciseEvent(playerId, tilePosition, weaponId, dummyId)
 
 	if weapon:getAttribute(ITEM_ATTRIBUTE_CHARGES) <= 0 then
 		weapon:remove(1)
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your training weapon has disappeared.")
-		LeaveTraining(playerId)
-		return false
+		local weapon = player:getItemById(weaponId, true) and player:isvip()
+		if not weapon or (not weapon:isItem() or not weapon:hasAttribute(ITEM_ATTRIBUTE_CHARGES)) then
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your training weapon has disappeared.")
+			LeaveTraining(playerId)
+			return false
+		end
 	end
 
 	local vocation = player:getVocation()

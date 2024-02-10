@@ -93,15 +93,15 @@ monster.loot = {
 	{ id = 9057, chance = 2910, maxCount = 1 }, -- small topaz
 	{ id = 239, chance = 8450, maxCount = 2 }, -- great health potion
 	{ id = 3026, chance = 5660 }, -- white pearl
-	{ id = 7404, chance = 350 }, -- assassin dagger
+	{ id = 7404, chance = 910 }, -- assassin dagger
 	{ id = 3041, chance = 290 }, -- blue gem
-	{ id = 3567, chance = 530 }, -- blue robe
+	{ id = 3567, chance = 910 }, -- blue robe
 	{ id = 9058, chance = 140 }, -- gold ingot
 	{ id = 21974, chance = 12700 }, -- golden lotus brooch
 	{ id = 3069, chance = 2460 }, -- necrotic rod
-	{ id = 21981, chance = 390 }, -- oriental shoes
+	{ id = 21981, chance = 910 }, -- oriental shoes
 	{ id = 21975, chance = 10740 }, -- peacock feather fan
-	{ id = 8061, chance = 180 }, -- skullcracker armor
+	{ id = 8061, chance = 910 }, -- skullcracker armor
 	{ id = 3017, chance = 3650 }, -- silver brooch
 	{ id = 3054, chance = 1050 }, -- silver amulet
 	{ id = 5944, chance = 14580 }, -- soul orb

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Gorerilla")
 local monster = {}
 
 monster.description = "a gorerilla"
-monster.experience = 13172
+monster.experience = 19172
 monster.outfit = {
 	lookType = 1559,
 	lookHead = 85,
@@ -84,6 +84,7 @@ monster.loot = {
 	{ name = "Crystal Crossbow", chance = 110 },
 	{ name = "Composite Hornbow", chance = 30 },
 	{ name = "Ornate Crossbow", chance = 30 },
+
 }
 
 monster.attacks = {

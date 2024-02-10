@@ -648,4 +648,10 @@ ItemUnique = {
 		itemId = 4077,
 		itemPos = { x = 31978, y = 32184, z = 10 },
 	},
+	-- Rotten Blood Quest Sacrificial Plate
+	-- data-otservbr-global/scripts/quests/rotten_blood/sacrificial_plate.lua
+	[10200] = {
+		itemId = 43891,
+		itemPos = { { x = 32956, y = 32398, z = 9 } },
+	},
 }

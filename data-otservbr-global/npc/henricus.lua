@@ -252,7 +252,7 @@ local function creatureSayCallback(npc, creature, type, message)
 				npcHandler:say("You already have been blessed!", npc, creature)
 			elseif player:removeMoneyBank(totalBlessPrice) then
 				npcHandler:say("You have been blessed by all of five gods!, |PLAYERNAME|.", npc, creature)
-				player:addMissingBless(false)
+				player:addMissingBless(true)
 				player:getPosition():sendMagicEffect(CONST_ME_HOLYAREA)
 			else
 				npcHandler:say("Come back when you have enough money.", npc, creature)

@@ -27,7 +27,7 @@ monster.health = 450000
 monster.maxHealth = 450000
 monster.race = "undead"
 monster.corpse = 36847
-monster.speed = 0
+monster.speed = 160
 monster.manaCost = 0
 
 monster.changeTarget = {
@@ -94,8 +94,8 @@ monster.loot = {
 	{ id = 39186, chance = 250 }, -- name = "charged arboreal ring"
 	{ id = 39180, chance = 250 }, -- name = "charged alicorn ring"
 	{ id = 39177, chance = 250 }, -- name = "charged spiritthorn ring"
-	{ name = "portable flame", chance = 250 },
-	{ name = "firefighting axe", chance = 250 },
+	{ name = "portable flame", chance = 450 },
+	{ name = "firefighting axe", chance = 450 },
 }
 
 monster.attacks = {

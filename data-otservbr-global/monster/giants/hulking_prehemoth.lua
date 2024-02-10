@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Hulking Prehemoth")
 local monster = {}
 
 monster.description = "a hulking prehemoth"
-monster.experience = 12690
+monster.experience = 18690
 monster.outfit = {
 	lookType = 1553,
 	lookHead = 85,
@@ -84,6 +84,7 @@ monster.loot = {
 	{ name = "Doublet", chance = 2880 },
 	{ name = "Silver Brooch", chance = 1160 },
 	{ name = "Emerald Bangle", chance = 780 },
+
 }
 
 monster.attacks = {

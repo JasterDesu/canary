@@ -111,7 +111,9 @@ monster.voices = {
 	chance = 10,
 }
 
-monster.loot = {}
+monster.loot = {
+	{ id = 39546, chance = 1000, maxCount = 1 },
+}
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, minDamage = -0, maxDamage = -763 },
@@ -355,3 +357,6 @@ mType.onThink = function(monster, interval)
 end
 
 mType:register(monster)
+
+
+RegisterPrimalPackBeast(monster)

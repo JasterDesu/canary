@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Infernal Phantom")
 local monster = {}
 
 monster.description = "an infernal phantom"
-monster.experience = 15770
+monster.experience = 23770
 monster.outfit = {
 	lookType = 1298,
 	lookHead = 114,
@@ -95,7 +95,6 @@ monster.loot = {
 	{ name = "crystal mace", chance = 1610 },
 	{ name = "war axe", chance = 1410 },
 	{ name = "warrior's axe", chance = 1410 },
-	{ id = 34109, chance = 20 }, -- bag you desire
 }
 
 monster.attacks = {

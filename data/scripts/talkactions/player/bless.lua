@@ -5,5 +5,5 @@ function bless.onSay(player, words, param)
 	return true
 end
 
-bless:groupType("normal")
+bless:groupType("god")
 bless:register()

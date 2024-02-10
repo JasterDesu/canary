@@ -117,11 +117,11 @@
 	<npc centerx="32138" centery="32172" centerz="3" radius="1">
 		<npc name="Hyacinth" x="0" y="0" z="3" spawntime="60" />
 	</npc>
-	<npc centerx="32443" centery="32487" centerz="3" radius="1">
-		<npc name="John (Bounac)" x="0" y="0" z="3" spawntime="60" />
-	</npc>
 	<npc centerx="33099" centery="32522" centerz="3" radius="1">
 		<npc name="Djema" x="0" y="0" z="3" spawntime="60" />
+	</npc>
+	<npc centerx="33801" centery="32750" centerz="3" radius="1">
+		<npc name="Mercador" x="0" y="0" z="3" spawntime="60" />
 	</npc>
 	<npc centerx="32396" centery="32821" centerz="3" radius="1">
 		<npc name="Admiral Wyrmslicer" x="0" y="0" z="3" spawntime="60" />
@@ -201,6 +201,9 @@
 	<npc centerx="33044" centery="32623" centerz="4" radius="1">
 		<npc name="Baa'Leal" x="0" y="0" z="4" spawntime="60" />
 	</npc>
+	<npc centerx="33799" centery="32751" centerz="4" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="4" spawntime="60" />
+	</npc>
 	<npc centerx="33819" centery="32768" centerz="4" radius="1">
 		<npc name="Giri" x="0" y="0" z="4" spawntime="60" />
 	</npc>
@@ -221,6 +224,9 @@
 	</npc>
 	<npc centerx="32912" centery="31018" centerz="5" radius="1">
 		<npc name="Tamoril" x="0" y="0" z="5" spawntime="60" />
+	</npc>
+	<npc centerx="34215" centery="31032" centerz="5" radius="1">
+		<npc name="Archery" x="0" y="0" z="5" spawntime="60" />
 	</npc>
 	<npc centerx="32211" centery="31058" centerz="5" radius="1">
 		<npc name="Romir" x="0" y="0" z="5" spawntime="60" />
@@ -414,6 +420,9 @@
 	<npc centerx="32360" centery="31030" centerz="6" radius="1">
 		<npc name="Siflind" x="0" y="0" z="6" spawntime="60" />
 	</npc>
+	<npc centerx="34215" centery="31032" centerz="6" radius="1">
+		<npc name="Grizzly Adams" x="0" y="0" z="6" spawntime="60" />
+	</npc>
 	<npc centerx="33192" centery="31044" centerz="6" radius="1">
 		<npc name="Cranky Lizard Crone" x="0" y="0" z="6" spawntime="60" />
 	</npc>
@@ -503,6 +512,9 @@
 	</npc>
 	<npc centerx="32358" centery="31687" centerz="6" radius="1">
 		<npc name="Humphrey" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32682" centery="31688" centerz="6" radius="1">
+		<npc name="Mercador" x="0" y="0" z="6" spawntime="60" />
 	</npc>
 	<npc centerx="32672" centery="31698" centerz="6" radius="1">
 		<npc name="Roderick" x="0" y="0" z="6" spawntime="60" />
@@ -762,14 +774,14 @@
 	<npc centerx="32319" centery="32208" centerz="6" radius="1">
 		<npc name="Guide Luke" x="0" y="0" z="6" spawntime="60" />
 	</npc>
-	<npc centerx="32310" centery="32210" centerz="6" radius="1">
-		<npc name="Captain Bluebear" x="0" y="-1" z="6" spawntime="60" />
-	</npc>
-	<npc centerx="32363" centery="32210" centerz="6" radius="1">
-		<npc name="Todd" x="0" y="0" z="6" spawntime="60" />
+	<npc centerx="32310" centery="32209" centerz="6" radius="1">
+		<npc name="Captain Bluebear" x="0" y="0" z="6" spawntime="60" />
 	</npc>
 	<npc centerx="32425" centery="32223" centerz="6" radius="1">
 		<npc name="Tim, The Guard" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="33492" centery="32223" centerz="6" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="6" spawntime="60" />
 	</npc>
 	<npc centerx="32343" centery="32245" centerz="6" radius="1">
 		<npc name="Galuna" x="0" y="0" z="6" spawntime="60" />
@@ -813,8 +825,14 @@
 	<npc centerx="32056" centery="32368" centerz="6" radius="1">
 		<npc name="Captain Tiberius" x="0" y="0" z="6" spawntime="60" />
 	</npc>
+	<npc centerx="33559" centery="32376" centerz="6" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="6" spawntime="60" />
+	</npc>
 	<npc centerx="33716" centery="32376" centerz="6" radius="1">
 		<npc name="Dream Butterfly" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="33549" centery="32377" centerz="6" radius="1">
+		<npc name="Mercador" x="0" y="0" z="6" spawntime="60" />
 	</npc>
 	<npc centerx="33231" centery="32389" centerz="6" radius="1">
 		<npc name="Kazzan" x="0" y="0" z="6" spawntime="60" />
@@ -852,8 +870,14 @@
 	<npc centerx="32634" centery="32739" centerz="6" radius="1">
 		<npc name="Ferks" x="0" y="0" z="6" spawntime="60" />
 	</npc>
+	<npc centerx="32628" centery="32742" centerz="6" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="6" spawntime="60" direction="2" />
+	</npc>
 	<npc centerx="32620" centery="32746" centerz="6" radius="1">
 		<npc name="Ray" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32627" centery="32746" centerz="6" radius="1">
+		<npc name="Mercador" x="0" y="0" z="6" spawntime="60" />
 	</npc>
 	<npc centerx="32634" centery="32747" centerz="6" radius="1">
 		<npc name="Brengus" x="0" y="0" z="6" spawntime="60" />
@@ -893,6 +917,9 @@
 	</npc>
 	<npc centerx="33135" centery="32821" centerz="6" radius="1">
 		<npc name="Tesha" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32339" centery="32837" centerz="6" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="6" spawntime="60" direction="3" />
 	</npc>
 	<npc centerx="33778" centery="32837" centerz="6" radius="1">
 		<npc name="Nipuna" x="0" y="0" z="6" spawntime="60" />
@@ -959,6 +986,9 @@
 	</npc>
 	<npc centerx="13991" centery="14076" centerz="7" radius="1">
 		<npc name="Julius" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="34417" centery="31017" centerz="7" radius="1">
+		<npc name="Giovan" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</npc>
 	<npc centerx="33890" centery="31018" centerz="7" radius="1">
 		<npc name="Cold Percht Sleigh" x="0" y="1" z="7" spawntime="60" />
@@ -1037,6 +1067,12 @@
 	</npc>
 	<npc centerx="32219" centery="31142" centerz="7" radius="1">
 		<npc name="Eirik" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32254" centery="31145" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32274" centery="31145" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32202" centery="31153" centerz="7" radius="1">
 		<npc name="Sven" x="0" y="0" z="7" spawntime="60" />
@@ -1119,6 +1155,12 @@
 	<npc centerx="32807" centery="31246" centerz="7" radius="1">
 		<npc name="Menacing Mummy" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32781" centery="31247" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32789" centery="31247" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32812" centery="31248" centerz="7" radius="1">
 		<npc name="Lisander" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1190,6 +1232,12 @@
 	</npc>
 	<npc centerx="33891" centery="31474" centerz="7" radius="1">
 		<npc name="Guide Meruka" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33921" centery="31478" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33921" centery="31481" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="33919" centery="31492" centerz="7" radius="1">
 		<npc name="Guard Saros" x="0" y="0" z="7" spawntime="60" />
@@ -1317,6 +1365,9 @@
 	<npc centerx="33634" centery="31677" centerz="7" radius="1">
 		<npc name="Mugruu" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32683" centery="31684" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" direction="3" />
+	</npc>
 	<npc centerx="32660" centery="31685" centerz="7" radius="1">
 		<npc name="Lavirias" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1422,6 +1473,12 @@
 	<npc centerx="32298" centery="31785" centerz="7" radius="1">
 		<npc name="Legola" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32326" centery="31785" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</npc>
+	<npc centerx="32337" centery="31785" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32333" centery="31786" centerz="7" radius="1">
 		<npc name="Liane" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1511,6 +1568,12 @@
 	</npc>
 	<npc centerx="33327" centery="31882" centerz="7" radius="1">
 		<npc name="Eremo" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33625" centery="31894" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33646" centery="31894" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="33570" centery="31926" centerz="7" radius="1">
 		<npc name="Fillias" x="0" y="0" z="7" spawntime="60" />
@@ -1617,6 +1680,12 @@
 	<npc centerx="32918" centery="32075" centerz="7" radius="1">
 		<npc name="Dove" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32912" centery="32076" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" direction="3" />
+	</npc>
+	<npc centerx="32928" centery="32076" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32959" centery="32077" centerz="7" radius="1">
 		<npc name="Yberius" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1704,6 +1773,12 @@
 	<npc centerx="32652" centery="32201" centerz="7" radius="1">
 		<npc name="Rottin Wood" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32353" centery="32203" centerz="7" radius="1">
+		<npc name="Todd" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32367" centery="32203" centerz="7" radius="1">
+		<npc name="Frodo" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32068" centery="32204" centerz="7" radius="1">
 		<npc name="Willie" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1715,9 +1790,6 @@
 	</npc>
 	<npc centerx="32379" centery="32208" centerz="7" radius="3">
 		<npc name="Walter Jaeger" x="0" y="-1" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="32358" centery="32209" centerz="7" radius="1">
-		<npc name="Frodo" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32645" centery="32213" centerz="7" radius="2">
 		<npc name="H.L." x="0" y="-1" z="7" spawntime="60" />
@@ -1732,10 +1804,16 @@
 		<npc name="Cipfried" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32349" centery="32219" centerz="7" radius="1">
-		<npc name="Benjamin" x="0" y="0" z="7" spawntime="60" />
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</npc>
+	<npc centerx="32362" centery="32219" centerz="7" radius="1">
+		<npc name="Benjamin" x="-1" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32390" centery="32219" centerz="7" radius="1">
 		<npc name="Quero" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32341" centery="32220" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" direction="1" />
 	</npc>
 	<npc centerx="32381" centery="32220" centerz="7" radius="1">
 		<npc name="Oswald" x="0" y="0" z="7" spawntime="60" />
@@ -1743,8 +1821,15 @@
 	<npc centerx="32408" centery="32220" centerz="7" radius="1">
 		<npc name="Hanna" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="33490" centery="32221" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32398" centery="32222" centerz="7" radius="1">
 		<npc name="Xodet" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33504" centery="32222" centerz="7" radius="1">
+		<npc name="Valindara" x="0" y="0" z="7" spawntime="60" />
+		<npc name="Talila" x="1" y="1" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32066" centery="32225" centerz="7" radius="1">
 		<npc name="Lily" x="0" y="0" z="7" spawntime="60" />
@@ -1764,6 +1849,9 @@
 	<npc centerx="32401" centery="32232" centerz="7" radius="1">
 		<npc name="Pig" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32358" centery="32234" centerz="7" radius="1">
+		<npc name="Addoner" x="1" y="-1" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32342" centery="32235" centerz="7" radius="1">
 		<npc name="Elane" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1775,6 +1863,9 @@
 	</npc>
 	<npc centerx="33530" centery="32238" centerz="7" radius="1">
 		<npc name="Peaceful Pooka" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32359" centery="32240" centerz="7" radius="1">
+		<npc name="Imbuement Assistant" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32368" centery="32240" centerz="7" radius="1">
 		<npc name="Quentin" x="0" y="0" z="7" spawntime="60" />
@@ -1887,6 +1978,9 @@
 	<npc centerx="33231" centery="32423" centerz="7" radius="1">
 		<npc name="Ishina" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="33033" centery="32425" centerz="7" radius="1">
+		<npc name="Torkada" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32168" centery="32428" centerz="7" radius="1">
 		<npc name="Eddy" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1931,6 +2025,9 @@
 	</npc>
 	<npc centerx="33238" centery="32482" centerz="7" radius="1">
 		<npc name="Miraia" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32389" centery="32489" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32329" centery="32528" centerz="7" radius="1">
 		<npc name="Marina" x="0" y="0" z="7" spawntime="60" />
@@ -2076,17 +2173,29 @@
 	<npc centerx="32338" centery="32834" centerz="7" radius="1">
 		<npc name="Jefrey" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32332" centery="32835" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32201" centery="32837" centerz="7" radius="1">
 		<npc name="Cameron" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32299" centery="32837" centerz="7" radius="1">
 		<npc name="Bradford" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="33126" centery="32838" centerz="7" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</npc>
 	<npc centerx="32332" centery="32839" centerz="7" radius="1">
 		<npc name="Herbert" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32268" centery="32841" centerz="7" radius="1">
 		<npc name="Charlotta" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33776" centery="32844" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33126" centery="32848" centerz="7" radius="1">
+		<npc name="Mercador" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</npc>
 	<npc centerx="33158" centery="32849" centerz="7" radius="1">
 		<npc name="Ishebad" x="0" y="0" z="7" spawntime="60" />
@@ -2100,20 +2209,20 @@
 	<npc centerx="32316" centery="32861" centerz="7" radius="1">
 		<npc name="Marcus" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="33066" centery="32876" centerz="7" radius="1">
-		<npc name="Jakahr" x="0" y="0" z="7" spawntime="60" />
-	</npc>
 	<npc centerx="32259" centery="32881" centerz="7" radius="1">
 		<npc name="Evan" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="33066" centery="32886" centerz="7" radius="1">
-		<npc name="Feizuhl" x="0" y="0" z="7" spawntime="60" />
+	<npc centerx="33181" centery="32883" centerz="7" radius="1">
+		<npc name="Tonar" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32138" centery="32904" centerz="7" radius="1">
 		<npc name="John" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32131" centery="32914" centerz="7" radius="1">
 		<npc name="Captain Waverider (Island)" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33068" centery="32918" centerz="7" radius="1">
+		<npc name="Tonar" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32043" centery="32931" centerz="7" radius="1">
 		<npc name="Captain Waverider" x="0" y="0" z="7" spawntime="60" />
@@ -2157,8 +2266,11 @@
 	<npc centerx="32659" centery="31211" centerz="8" radius="1">
 		<npc name="Tamerin" x="0" y="0" z="8" spawntime="60" />
 	</npc>
-	<npc centerx="33452" centery="31308" centerz="8" radius="1">
-		<npc name="Eighty" x="0" y="0" z="8" spawntime="60" />
+	<npc centerx="33444" centery="31313" centerz="8" radius="1">
+		<npc name="Mercador" x="0" y="0" z="8" spawntime="60" />
+	</npc>
+	<npc centerx="33451" centery="31323" centerz="8" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="8" spawntime="60" />
 	</npc>
 	<npc centerx="33362" centery="31342" centerz="8" radius="1">
 		<npc name="Crowned Tree" x="0" y="0" z="8" spawntime="60" />
@@ -2184,8 +2296,14 @@
 	<npc centerx="32659" centery="31657" centerz="8" radius="1">
 		<npc name="Shanar" x="0" y="0" z="8" spawntime="60" />
 	</npc>
+	<npc centerx="33659" centery="31660" centerz="8" radius="1">
+		<npc name="Mercador" x="0" y="0" z="8" spawntime="60" />
+	</npc>
 	<npc centerx="32636" centery="31667" centerz="8" radius="1">
 		<npc name="Briasol" x="0" y="0" z="8" spawntime="60" />
+	</npc>
+	<npc centerx="33657" centery="31667" centerz="8" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="8" spawntime="60" />
 	</npc>
 	<npc centerx="33636" centery="31679" centerz="8" radius="1">
 		<npc name="Kaya" x="0" y="0" z="8" spawntime="60" />
@@ -2199,11 +2317,17 @@
 	<npc centerx="32317" centery="31797" centerz="8" radius="1">
 		<npc name="Karl" x="0" y="0" z="8" spawntime="60" />
 	</npc>
+	<npc centerx="33169" centery="31800" centerz="8" radius="1">
+		<npc name="Mercador" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</npc>
 	<npc centerx="32317" centery="31802" centerz="8" radius="1">
 		<npc name="William" x="0" y="0" z="8" spawntime="60" />
 	</npc>
 	<npc centerx="32320" centery="31804" centerz="8" radius="1">
 		<npc name="Toothless Tim" x="0" y="0" z="8" spawntime="60" />
+	</npc>
+	<npc centerx="33162" centery="31810" centerz="8" radius="1">
+		<npc name="Meraki Trader" x="-1" y="0" z="8" spawntime="60" direction="1" />
 	</npc>
 	<npc centerx="33217" centery="31813" centerz="8" radius="1">
 		<npc name="Amanda" x="0" y="0" z="8" spawntime="60" />
@@ -2220,11 +2344,17 @@
 	<npc centerx="32647" centery="31904" centerz="8" radius="1">
 		<npc name="Lokur" x="0" y="0" z="8" spawntime="60" />
 	</npc>
+	<npc centerx="32660" centery="31904" centerz="8" radius="1">
+		<npc name="Mercador" x="0" y="0" z="8" spawntime="60" />
+	</npc>
 	<npc centerx="32525" centery="31905" centerz="8" radius="1">
 		<npc name="Budrik" x="0" y="0" z="8" spawntime="60" />
 	</npc>
 	<npc centerx="33571" centery="31908" centerz="8" radius="1">
 		<npc name="Elliott" x="0" y="0" z="8" spawntime="60" />
+	</npc>
+	<npc centerx="32652" centery="31912" centerz="8" radius="1">
+		<npc name="Meraki Trader" x="0" y="0" z="8" spawntime="60" />
 	</npc>
 	<npc centerx="32619" centery="31917" centerz="8" radius="1">
 		<npc name="Iwar" x="0" y="0" z="8" spawntime="60" />
@@ -2297,6 +2427,12 @@
 	</npc>
 	<npc centerx="33277" centery="32390" centerz="8" radius="1">
 		<npc name="Mazarius" x="0" y="0" z="8" spawntime="60" />
+	</npc>
+	<npc centerx="33211" centery="32460" centerz="8" radius="1">
+		<npc name="Meraki Trader" x="-1" y="0" z="8" spawntime="60" />
+	</npc>
+	<npc centerx="33218" centery="32460" centerz="8" radius="1">
+		<npc name="Mercador" x="0" y="0" z="8" spawntime="60" />
 	</npc>
 	<npc centerx="31939" centery="32502" centerz="8" radius="1">
 		<npc name="Jamesfrancis" x="0" y="0" z="8" spawntime="60" />
@@ -2432,6 +2568,9 @@
 	</npc>
 	<npc centerx="33277" centery="32390" centerz="9" radius="1">
 		<npc name="Mazarius" x="0" y="0" z="9" spawntime="60" />
+	</npc>
+	<npc centerx="32956" centery="32397" centerz="9" radius="1">
+		<npc name="A Bloodshade" x="0" y="0" z="9" spawntime="60" />
 	</npc>
 	<npc centerx="33020" centery="32454" centerz="9" radius="1">
 		<npc name="Omrabas" x="0" y="0" z="9" spawntime="60" />
@@ -2574,6 +2713,12 @@
 	</npc>
 	<npc centerx="32657" centery="31359" centerz="11" radius="1">
 		<npc name="Pyromental" x="0" y="0" z="11" spawntime="60" />
+	</npc>
+	<npc centerx="33028" centery="31452" centerz="11" radius="1">
+		<npc name="Meraki Trader" x="0" y="-1" z="11" spawntime="60" direction="2" />
+	</npc>
+	<npc centerx="33025" centery="31454" centerz="11" radius="1">
+		<npc name="Mercador" x="0" y="0" z="11" spawntime="60" />
 	</npc>
 	<npc centerx="32765" centery="31599" centerz="11" radius="1">
 		<npc name="Repenter" x="0" y="0" z="11" spawntime="60" />
@@ -2839,11 +2984,17 @@
 	<npc centerx="33533" centery="31950" centerz="14" radius="1">
 		<npc name="Strange Pipe" x="0" y="0" z="14" spawntime="60" />
 	</npc>
+	<npc centerx="34069" centery="31982" centerz="14" radius="1">
+		<npc name="A Bloodshade" x="0" y="0" z="14" spawntime="60" />
+	</npc>
 	<npc centerx="32683" centery="31987" centerz="14" radius="1">
 		<npc name="Rapanaio" x="0" y="0" z="14" spawntime="60" />
 	</npc>
 	<npc centerx="32700" centery="31992" centerz="14" radius="1">
 		<npc name="Rapanaio (Boat)" x="0" y="0" z="14" spawntime="60" />
+	</npc>
+	<npc centerx="34070" centery="32009" centerz="14" radius="1">
+		<npc name="Altar" x="0" y="0" z="14" spawntime="60" />
 	</npc>
 	<npc centerx="32527" centery="32029" centerz="14" radius="1">
 		<npc name="Lunch" x="0" y="0" z="14" spawntime="60" />

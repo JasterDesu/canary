@@ -108,14 +108,9 @@ local potions = {
 			150,
 			250,
 		},
-		vocations = {
-			VOCATION.BASE_ID.SORCERER,
-			VOCATION.BASE_ID.DRUID,
-			VOCATION.BASE_ID.PALADIN,
-		},
 		level = 80,
 		flask = 284,
-		description = "Only sorcerers, druids and paladins of level 80 or above may drink this fluid.",
+		description = "Only players of level 80 or above may drink this fluid.",
 	},
 	[239] = {
 		health = {

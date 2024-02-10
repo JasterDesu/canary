@@ -4,9 +4,14 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MORTAREA)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_SUDDENDEATH)
 
 function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 5) + (maglevel * 4.605) + 28
-	local max = (level / 5) + (maglevel * 7.395) + 46
+	local min = (level * 1.4) + (maglevel * 8) + 100 --  
+	local max = (level * 1.6) + (maglevel * 13) + 200 --
 	return -min, -max
+
+	--[[teste lvl 500 ml 100
+	min 700 + 1500 + 100 = 2.300
+	max 800 + 1800 + 100 = 2.800
+	]]
 end
 
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
@@ -27,8 +32,8 @@ rune:allowFarUse(true)
 rune:charges(3)
 rune:level(45)
 rune:magicLevel(15)
-rune:cooldown(2 * 1000)
-rune:groupCooldown(2 * 1000)
+rune:cooldown(1 * 1000)
+rune:groupCooldown(1 * 1000)
 rune:needTarget(true)
 rune:isBlocking(true) -- True = Solid / False = Creature
 rune:register()

@@ -420,14 +420,14 @@ function dangerousDepthCrystals.onUse(player, item, fromPosition, target, toPosi
 	local targetPosition = target:getPosition()
 
 	if targetPosition == WarzoneIV and target:getId() == geodeId then -- Warzone 4 BOSS!!!
-		if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneIV) < 30 then
+		if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneIV) < 3 then
 			targetPosition:sendMagicEffect(CONST_ME_HITAREA)
 			item:remove(1)
 			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneIV) < 0 then
 				Game.setStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneIV, 0)
 			end
 			Game.setStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneIV, Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneIV) + 1)
-			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneIV) == 30 then
+			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneIV) == 3 then
 				local spectators = Game.getSpectators(targetPosition, false, true, 3, 3, 3, 3)
 				for _, spectator in pairs(spectators) do
 					if spectator:isPlayer() then
@@ -455,14 +455,14 @@ function dangerousDepthCrystals.onUse(player, item, fromPosition, target, toPosi
 	end
 
 	if targetPosition == WarzoneV and target:getId() == geodeId then -- Warzone 5 BOSS!!!
-		if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneV) < 30 then
+		if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneV) < 3 then
 			targetPosition:sendMagicEffect(CONST_ME_HITAREA)
 			item:remove(1)
 			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneV) < 0 then
 				Game.setStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneV, 0)
 			end
 			Game.setStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneV, Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneV) + 1)
-			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneV) == 30 then
+			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneV) == 3 then
 				local spectators = Game.getSpectators(targetPosition, false, true, 3, 3, 3, 3)
 				for _, spectator in pairs(spectators) do
 					if spectator:isPlayer() then
@@ -490,14 +490,14 @@ function dangerousDepthCrystals.onUse(player, item, fromPosition, target, toPosi
 	end
 
 	if targetPosition == WarzoneVI and target:getId() == geodeId then -- Warzone 6 BOSS!!!
-		if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneVI) < 30 then
+		if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneVI) < 3 then
 			targetPosition:sendMagicEffect(CONST_ME_HITAREA)
 			item:remove(1)
 			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneVI) < 0 then
 				Game.setStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneVI, 0)
 			end
 			Game.setStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneVI, Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneVI) + 1)
-			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneVI) == 30 then
+			if Game.getStorageValue(GlobalStorage.DangerousDepths.Geodes.WarzoneVI) == 3 then
 				local spectators = Game.getSpectators(targetPosition, false, true, 3, 3, 3, 3)
 				for _, spectator in pairs(spectators) do
 					if spectator:isPlayer() then

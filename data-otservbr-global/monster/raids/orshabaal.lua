@@ -18,8 +18,8 @@ monster.bosstiary = {
 	bossRace = RARITY_NEMESIS,
 }
 
-monster.health = 22500
-monster.maxHealth = 22500
+monster.health = 150500
+monster.maxHealth = 150500
 monster.race = "fire"
 monster.corpse = 5995
 monster.speed = 270
@@ -148,7 +148,7 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = 20 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = 35 },
 	{ type = COMBAT_ENERGYDAMAGE, percent = 80 },
 	{ type = COMBAT_EARTHDAMAGE, percent = 100 },
 	{ type = COMBAT_FIREDAMAGE, percent = 100 },

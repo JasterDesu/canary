@@ -78,22 +78,22 @@ monster.loot = {
 	{ id = 23373, chance = 40000, maxCount = 100 }, -- Ultimate Mana Potion
 	{ id = 7643, chance = 30000, maxCount = 100 }, -- Ultimate Health Potion
 	{ id = 23374, chance = 30000, maxCount = 100 }, -- Ultimate Spirit Potion
-	{ id = 37810, chance = 100000 }, -- Morshabaal's Extract
-	{ id = 33780, chance = 100000 }, -- Watermelon Tourmaline (Pear)
-	{ id = 33779, chance = 100000 }, -- Watermelon Tourmaline (Slice)
+	{ id = 37810, chance = 10000 }, -- Morshabaal's Extract
+	{ id = 33780, chance = 18000 }, -- Watermelon Tourmaline (Pear)
+	{ id = 33779, chance = 18000 }, -- Watermelon Tourmaline (Slice)
 	{ id = 32625, chance = 40000 }, -- Amber with a Dragonfly
 	{ id = 30054, chance = 20000 }, -- Unicorn Figurine
 	{ id = 31323, chance = 20000 }, -- Sea Horse Figurine
 	{ id = 37611, chance = 10000 }, -- Morshabaal's Mask
 	{ id = 30060, chance = 10000 }, -- Giant Emerald
 	{ id = 14112, chance = 10000 }, -- Bar of Gold
-	{ id = 37613, chance = 6666 }, -- Morshabaal's Brain
-	{ id = 37608, chance = 6666 }, -- Green Demon Armor
-	{ id = 37609, chance = 6666 }, -- Green Demon Helmet
-	{ id = 37607, chance = 6666 }, -- Green Demon Legs
-	{ id = 37610, chance = 6666 }, -- Green Demon Slippers
-	{ id = 30053, chance = 6666 }, -- Dragon Figurine
-	{ id = 3309, chance = 6666 }, -- Thunder Hammer
+	{ id = 37613, chance = 666 }, -- Morshabaal's Brain
+	{ id = 37608, chance = 666 }, -- Green Demon Armor
+	{ id = 37609, chance = 666 }, -- Green Demon Helmet
+	{ id = 37607, chance = 666 }, -- Green Demon Legs
+	{ id = 37610, chance = 666 }, -- Green Demon Slippers
+	{ id = 30053, chance = 666 }, -- Dragon Figurine
+	{ id = 3309, chance = 666 }, -- Thunder Hammer
 }
 
 monster.attacks = {

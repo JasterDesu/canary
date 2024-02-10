@@ -12,8 +12,12 @@ monster.bosstiary = {
 	bossRace = RARITY_ARCHFOE,
 }
 
-monster.health = 450000
-monster.maxHealth = 450000
+monster.events = {
+	"TheMonsterDeath",
+}
+
+monster.health = 150000
+monster.maxHealth = 150000
 monster.race = "blood"
 monster.corpse = 42247
 monster.speed = 180
@@ -73,19 +77,19 @@ monster.loot = {
 	{ name = "giant topaz", chance = 4600 },
 	{ name = "giant emerald", chance = 4500 },
 	{ id = 33778, chance = 900 }, -- raw watermelon turmaline
-	{ name = "alchemist's notepad", chance = 420 },
-	{ name = "antler-horn helmet", chance = 390 },
-	{ name = "mutant bone kilt", chance = 450 },
-	{ name = "mutated skin armor", chance = 430 },
-	{ name = "mutated skin legs", chance = 410 },
-	{ name = "stitched mutant hide legs", chance = 440 },
-	{ name = "alchemist's boots", chance = 460 },
-	{ name = "mutant bone boots", chance = 400 },
+	{ name = "alchemist's notepad", chance = 920 },
+	{ name = "antler-horn helmet", chance = 890 },
+	{ name = "mutant bone kilt", chance = 950 },
+	{ name = "mutated skin armor", chance = 830 },
+	{ name = "mutated skin legs", chance = 810 },
+	{ name = "stitched mutant hide legs", chance = 840 },
+	{ name = "alchemist's boots", chance = 860 },
+	{ name = "mutant bone boots", chance = 800 },
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2800 },
-	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -600, maxDamage = -1200, effect = CONST_ME_ENERGYAREA, target = true, radius = 5, range = 3 },
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1600 },
+	{ name = "combat", interval = 2000, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -600, maxDamage = -1000, effect = CONST_ME_ENERGYAREA, target = true, radius = 5, range = 3 },
 	{ name = "destroy magic walls", interval = 1000, chance = 50 },
 }
 

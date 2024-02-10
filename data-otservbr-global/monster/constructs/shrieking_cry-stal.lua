@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Shrieking Cry-Stal")
 local monster = {}
 
 monster.description = "a shrieking cry-stal"
-monster.experience = 13560
+monster.experience = 19560
 monster.outfit = {
 	lookType = 1560,
 	lookHead = 85,
@@ -87,6 +87,7 @@ monster.loot = {
 	{ name = "Gold Ring", chance = 600 },
 	{ name = "Green Gem", chance = 420 },
 	{ name = "Ring of the Sky", chance = 210 },
+
 }
 
 monster.attacks = {

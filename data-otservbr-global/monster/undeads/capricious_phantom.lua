@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Capricious Phantom")
 local monster = {}
 
 monster.description = "a capricious phantom"
-monster.experience = 19360
+monster.experience = 28360
 monster.outfit = {
 	lookType = 1298,
 	lookHead = 81,
@@ -93,7 +93,6 @@ monster.loot = {
 	{ id = 23542, chance = 1180 }, -- collar of blue plasma
 	{ name = "glacial rod", chance = 940 },
 	{ name = "ornate crossbow", chance = 940 },
-	{ id = 34109, chance = 20 }, -- bag you desire
 }
 
 monster.attacks = {

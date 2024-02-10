@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Cloak of Terror")
 local monster = {}
 
 monster.description = "a cloak of terror"
-monster.experience = 19700
+monster.experience = 27700
 monster.outfit = {
 	lookType = 1295,
 	lookHead = 0,
@@ -93,7 +93,6 @@ monster.loot = {
 	{ name = "blue gem", chance = 1490 },
 	{ name = "brooch of embracement", chance = 1490 },
 	{ name = "wand of defiance", chance = 990 },
-	{ id = 34109, chance = 20 }, -- bag you desire
 }
 
 monster.attacks = {

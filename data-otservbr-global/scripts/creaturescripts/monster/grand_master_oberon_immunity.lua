@@ -1,4 +1,4 @@
-local grandMasterOberonImmunity = CreatureEvent("OberonImmunity")
+--[[local grandMasterOberonImmunity = CreatureEvent("OberonImmunity")
 
 function grandMasterOberonImmunity.onHealthChange(creature, attacker, primaryDamage, primaryType, secondaryDamage, secondaryType, origin)
 	if creature and creature:isMonster() then
@@ -7,4 +7,4 @@ function grandMasterOberonImmunity.onHealthChange(creature, attacker, primaryDam
 	return true
 end
 
-grandMasterOberonImmunity:register()
+grandMasterOberonImmunity:register()]]--

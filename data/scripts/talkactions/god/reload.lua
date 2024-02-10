@@ -74,6 +74,10 @@ function Player.reloadTalkaction(self, words, param)
 		logger.info("Saved Hirelings")
 		self:sendTextMessage(MESSAGE_ADMINISTRADOR, "Server is saved.. Now will reload configs!")
 
+		
+
+		-- Adicione estas linhas para verificar o valor de reloadType
+		logger.info("Reload type: {}", reloadType)
 		Game.reload(reloadType)
 		self:sendTextMessage(MESSAGE_LOOK, string.format("Reloaded %s.", param:lower()))
 		logger.info("Reloaded {}", param:lower())

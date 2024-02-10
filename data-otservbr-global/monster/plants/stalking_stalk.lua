@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Stalking Stalk")
 local monster = {}
 
 monster.description = "a stalking stalk"
-monster.experience = 11569
+monster.experience = 17569
 monster.outfit = {
 	lookType = 1554,
 	lookHead = 85,
@@ -85,6 +85,7 @@ monster.loot = {
 	{ name = "Green Gem", chance = 1780 },
 	{ name = "Warrior's Axe", chance = 1700 },
 	{ name = "Muck Rod", chance = 1310 },
+
 }
 
 monster.attacks = {

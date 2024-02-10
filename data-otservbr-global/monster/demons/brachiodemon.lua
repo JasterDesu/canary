@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Brachiodemon")
 local monster = {}
 
 monster.description = "a brachiodemon"
-monster.experience = 15770
+monster.experience = 22770
 monster.outfit = {
 	lookType = 1299,
 	lookHead = 0,
@@ -99,7 +99,6 @@ monster.loot = {
 	{ name = "mastermind shield", chance = 420 },
 	{ name = "assassin dagger", chance = 340 },
 	{ name = "alloy legs", chance = 170 },
-	{ id = 34109, chance = 20 }, -- bag you desire
 }
 
 monster.attacks = {

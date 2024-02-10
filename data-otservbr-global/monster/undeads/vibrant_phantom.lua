@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Vibrant Phantom")
 local monster = {}
 
 monster.description = "a vibrant phantom"
-monster.experience = 19700
+monster.experience = 28700
 monster.outfit = {
 	lookType = 1298,
 	lookHead = 85,
@@ -94,7 +94,6 @@ monster.loot = {
 	{ name = "violet crystal shard", chance = 1080 },
 	{ id = 23529, chance = 1080 }, -- ring of blue plasma
 	{ name = "green gem", chance = 1080 },
-	{ id = 34109, chance = 20 }, -- bag you desire
 }
 
 monster.attacks = {

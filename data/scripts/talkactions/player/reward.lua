@@ -1,12 +1,12 @@
 local config = {
 	items = {
-		{ id = 35284, charges = 64400 },
-		{ id = 35279, charges = 64400 },
-		{ id = 35281, charges = 64400 },
-		{ id = 35283, charges = 64400 },
-		{ id = 35282, charges = 64400 },
-		{ id = 35280, charges = 64400 },
-		{ id = 44066, charges = 64400 },
+		{ id = 35284, charges = 2500 },
+		{ id = 35279, charges = 2500 },
+		{ id = 35281, charges = 2500 },
+		{ id = 35283, charges = 2500 },
+		{ id = 35282, charges = 2500 },
+		{ id = 35280, charges = 2500 },
+		{ id = 44066, charges = 2500 },
 	},
 	storage = tonumber(Storage.PlayerWeaponReward), -- storage key, player can only win once
 }
@@ -24,14 +24,12 @@ local function sendExerciseRewardModal(player)
 					return true
 				end
 
-				local inbox = player:getStoreInbox()
-				local inboxItems = inbox:getItems()
-				if inbox and #inboxItems <= inbox:getMaxCapacity() and player:getFreeCapacity() >= iType:getWeight() then
+				local inbox = player:getSlotItem(CONST_SLOT_STORE_INBOX)
+				if inbox and inbox:getEmptySlots() > 0 and player:getFreeCapacity() >= iType:getWeight() then
 					local item = inbox:addItem(it.id, it.charges)
 					if item then
 						item:setActionId(IMMOVABLE_ACTION_ID)
 						item:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
-						item:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, string.format("You won this exercise weapon as a reward to be a %s player. Use it in a dummy!\nHave a nice game..", configManager.getString(configKeys.SERVER_NAME)))
 					else
 						player:sendTextMessage(MESSAGE_LOOK, "You need to have capacity and empty slots to receive.")
 						return

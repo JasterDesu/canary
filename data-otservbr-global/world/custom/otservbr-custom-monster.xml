@@ -1,2 +1,448 @@
 <?xml version="1.0"?>
-<monsters />
+<monsters>
+	<monster centerx="1202" centery="1269" centerz="4" radius="1">
+		<monster name="Castle Carcass" x="0" y="0" z="4" spawntime="240" />
+	</monster>
+	<monster centerx="1190" centery="1271" centerz="5" radius="9">
+		<monster name="Castle Carcass" x="0" y="0" z="5" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="5" z="5" spawntime="240" />
+		<monster name="Castle Carcass" x="7" y="8" z="5" spawntime="240" />
+	</monster>
+	<monster centerx="1203" centery="1276" centerz="5" radius="1">
+		<monster name="Castle Carcass" x="0" y="0" z="5" spawntime="240" />
+	</monster>
+	<monster centerx="1220" centery="1236" centerz="6" radius="1">
+		<monster name="Rotten Castle-Maggot" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1235" centery="1237" centerz="6" radius="3">
+		<monster name="Rotten Castle-Maggot" x="2" y="-2" z="6" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="-1" z="6" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="2" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1227" centery="1238" centerz="6" radius="1">
+		<monster name="Castle Carcass" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1215" centery="1241" centerz="6" radius="1">
+		<monster name="Castle Carcass" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1234" centery="1247" centerz="6" radius="1">
+		<monster name="Rotten Castle-Maggot" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1220" centery="1248" centerz="6" radius="1">
+		<monster name="Rotten Castle-Maggot" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1228" centery="1250" centerz="6" radius="1">
+		<monster name="Castle Carcass" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1225" centery="1258" centerz="6" radius="1">
+		<monster name="Rotten Castle-Maggot" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1218" centery="1261" centerz="6" radius="1">
+		<monster name="Castle Carcass" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1203" centery="1262" centerz="6" radius="1">
+		<monster name="Castle Carcass" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1209" centery="1263" centerz="6" radius="1">
+		<monster name="Rotten Castle-Maggot" x="0" y="0" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1196" centery="1273" centerz="6" radius="4">
+		<monster name="Rotten Castle-Maggot" x="0" y="0" z="6" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="3" z="6" spawntime="240" />
+	</monster>
+	<monster centerx="1195" centery="1090" centerz="7" radius="14">
+		<monster name="Castle Carcass" x="9" y="1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="4" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="6" y="5" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="7" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-9" y="10" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="1" y="11" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-4" y="12" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="6" y="13" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1273" centery="1092" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-4" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-5" y="1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="5" y="3" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1216" centery="1093" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="1" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-3" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="6" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="0" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1242" centery="1093" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="6" y="-3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-6" y="1" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1258" centery="1093" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="4" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-5" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-2" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="0" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-3" y="2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-3" y="5" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1229" centery="1095" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-1" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="5" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-4" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-3" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="4" y="5" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1235" centery="1106" centerz="7" radius="3">
+		<monster name="Rotten Castle-Maggot" x="0" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-2" y="1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="1" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1285" centery="1106" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="0" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-2" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-2" y="5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="1" y="6" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1260" centery="1109" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="-1" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="-3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="4" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="6" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1188" centery="1111" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-2" y="-5" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="3" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1242" centery="1117" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="1" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="6" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1216" centery="1119" centerz="7" radius="14">
+		<monster name="Castle Carcass" x="-11" y="-14" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-12" y="-12" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-7" y="-9" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="10" y="-9" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-5" y="-7" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="5" y="-6" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="-3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="4" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="9" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-6" y="13" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="13" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1283" centery="1123" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="3" y="-4" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-5" y="4" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="4" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1189" centery="1125" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="-1" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="4" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1264" centery="1129" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="0" y="-4" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="5" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-5" y="3" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1243" centery="1131" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="2" y="-4" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-3" y="3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-4" y="5" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1202" centery="1136" centerz="7" radius="2">
+		<monster name="Castle Carcass" x="-1" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="-1" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1221" centery="1137" centerz="7" radius="2">
+		<monster name="Castle Carcass" x="0" y="-1" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1192" centery="1139" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="-2" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="-4" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="6" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="1" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1284" centery="1140" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="0" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-2" y="-3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-2" y="2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="6" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1253" centery="1142" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="2" y="-6" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-3" y="1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-5" y="3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="4" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1230" centery="1145" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-6" y="-6" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="5" y="-5" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="-3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-5" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="5" y="3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="4" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="6" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1240" centery="1147" centerz="7" radius="2">
+		<monster name="Castle Carcass" x="-2" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1191" centery="1150" centerz="7" radius="4">
+		<monster name="Rotten Castle-Maggot" x="-2" y="-4" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="1" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1257" centery="1157" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-6" y="-5" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-3" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-3" y="1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="4" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="4" y="5" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1230" centery="1158" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="-4" y="-6" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="-4" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-6" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="4" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-3" y="1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1243" centery="1158" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="4" y="-6" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-5" y="3" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1207" centery="1159" centerz="7" radius="3">
+		<monster name="Rotten Castle-Maggot" x="2" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="0" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1284" centery="1159" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="1" y="-6" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-2" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="1" y="4" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1217" centery="1161" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="-2" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-6" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="3" y="1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-3" y="2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="3" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1196" centery="1162" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="-4" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-3" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="6" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="1" y="1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-4" y="5" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1267" centery="1170" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-2" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="-5" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-3" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="6" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="5" y="3" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1238" centery="1172" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-1" y="-5" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="4" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1281" centery="1174" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="2" y="-6" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="-4" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-5" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-6" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1191" centery="1175" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="1" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-2" y="-4" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="4" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-3" y="5" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1214" centery="1175" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="2" y="-6" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="0" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="5" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1237" centery="1185" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="2" y="-6" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="0" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="6" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="2" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-5" y="3" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1252" centery="1186" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-5" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-5" y="0" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="4" y="1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="6" y="3" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1280" centery="1187" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="0" y="-5" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="-3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="2" y="-3" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-3" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1195" centery="1188" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="-3" y="-4" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-1" y="-3" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="1" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="4" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="0" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="4" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1209" centery="1189" centerz="7" radius="6">
+		<monster name="Rotten Castle-Maggot" x="4" y="-4" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="1" y="-2" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-4" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-6" y="0" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="6" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-1" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1223" centery="1189" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="1" y="-1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="4" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-3" y="2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="1" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="1266" centery="1190" centerz="7" radius="6">
+		<monster name="Castle Carcass" x="-5" y="-2" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="-2" y="-1" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="5" y="0" z="7" spawntime="240" />
+		<monster name="Castle Carcass" x="-5" y="1" z="7" spawntime="240" />
+		<monster name="Rotten Castle-Maggot" x="3" y="2" z="7" spawntime="240" />
+	</monster>
+	<monster centerx="2866" centery="2082" centerz="11" radius="3">
+		<monster name="Castle Barrier" x="1" y="-2" z="11" spawntime="3600" />
+		<monster name="Castle Barrier" x="1" y="-1" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="1" y="0" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="1" y="1" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="1" y="2" z="11" spawntime="3600" />
+	</monster>
+	<monster centerx="2886" centery="2082" centerz="11" radius="10">
+		<monster name="Castle Barrier" x="5" y="-5" z="11" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-4" y="-4" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="5" y="-4" z="11" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-4" y="-3" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="5" y="-3" z="11" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-4" y="-2" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="5" y="-2" z="11" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-4" y="-1" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="5" y="-1" z="11" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-1" y="1" z="11" spawntime="3600" direction="2" />
+		<monster name="Castle Barrier" x="0" y="1" z="11" spawntime="3600" direction="2" />
+		<monster name="Castle Barrier" x="1" y="1" z="11" spawntime="3600" direction="2" />
+		<monster name="Castle Barrier" x="2" y="1" z="11" spawntime="3600" direction="2" />
+		<monster name="Castle Barrier" x="3" y="1" z="11" spawntime="3600" direction="2" />
+		<monster name="Castle Barrier" x="-8" y="7" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="-8" y="8" z="11" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="-8" y="9" z="11" spawntime="3600" direction="3" />
+	</monster>
+	<monster centerx="2870" centery="2088" centerz="11" radius="1">
+		<monster name="Castle Barrier" x="-1" y="-1" z="11" spawntime="3600" />
+		<monster name="Castle Barrier" x="0" y="-1" z="11" spawntime="3600" />
+		<monster name="Castle Barrier" x="1" y="-1" z="11" spawntime="3600" />
+	</monster>
+	<monster centerx="2864" centery="2078" centerz="12" radius="5">
+		<monster name="Castle Barrier" x="-3" y="-1" z="12" spawntime="3600" />
+		<monster name="Castle Barrier" x="-2" y="-1" z="12" spawntime="3600" />
+		<monster name="Castle Barrier" x="-1" y="-1" z="12" spawntime="3600" />
+		<monster name="Castle Barrier" x="0" y="-1" z="12" spawntime="3600" />
+		<monster name="Castle Barrier" x="1" y="-1" z="12" spawntime="3600" />
+	</monster>
+	<monster centerx="2868" centery="2092" centerz="12" radius="1">
+		<monster name="Castle Barrier" x="-1" y="-1" z="12" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-1" y="0" z="12" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-1" y="1" z="12" spawntime="3600" direction="1" />
+	</monster>
+	<monster centerx="2868" centery="2094" centerz="12" radius="1">
+		<monster name="Castle Barrier" x="-1" y="0" z="12" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-1" y="1" z="12" spawntime="3600" direction="1" />
+	</monster>
+	<monster centerx="2868" centery="2096" centerz="12" radius="1">
+		<monster name="Castle Barrier" x="-1" y="0" z="12" spawntime="3600" direction="1" />
+		<monster name="Castle Barrier" x="-1" y="1" z="12" spawntime="3600" direction="1" />
+	</monster>
+	<monster centerx="2883" centery="2073" centerz="13" radius="1">
+		<monster name="Castle Barrier" x="0" y="-1" z="13" spawntime="3600" />
+		<monster name="Castle Barrier" x="1" y="-1" z="13" spawntime="3600" />
+	</monster>
+	<monster centerx="2885" centery="2073" centerz="13" radius="1">
+		<monster name="Castle Barrier" x="0" y="-1" z="13" spawntime="3600" />
+		<monster name="Castle Barrier" x="1" y="-1" z="13" spawntime="3600" />
+	</monster>
+	<monster centerx="2887" centery="2073" centerz="13" radius="1">
+		<monster name="Castle Barrier" x="0" y="-1" z="13" spawntime="3600" />
+		<monster name="Castle Barrier" x="1" y="-1" z="13" spawntime="3600" />
+	</monster>
+	<monster centerx="2868" centery="2095" centerz="13" radius="1">
+		<monster name="Castle Barrier" x="-1" y="0" z="13" spawntime="3600" />
+		<monster name="Castle Barrier" x="-1" y="1" z="13" spawntime="3600" direction="3" />
+	</monster>
+	<monster centerx="2868" centery="2097" centerz="13" radius="1">
+		<monster name="Castle Barrier" x="-1" y="0" z="13" spawntime="3600" direction="3" />
+	</monster>
+	<monster centerx="2854" centery="2080" centerz="14" radius="1">
+		<monster name="Castle Barrier" x="-1" y="-1" z="14" spawntime="3600" />
+		<monster name="Castle Barrier" x="-1" y="0" z="14" spawntime="3600" />
+		<monster name="Castle Barrier" x="-1" y="1" z="14" spawntime="3600" direction="3" />
+	</monster>
+	<monster centerx="2854" centery="2082" centerz="14" radius="1">
+		<monster name="Castle Barrier" x="-1" y="0" z="14" spawntime="3600" direction="3" />
+		<monster name="Castle Barrier" x="-1" y="1" z="14" spawntime="3600" />
+	</monster>
+	<monster centerx="2854" centery="2083" centerz="14" radius="1">
+		<monster name="Castle Barrier" x="-1" y="1" z="14" spawntime="3600" />
+	</monster>
+</monsters>

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Sulphur Spouter")
 local monster = {}
 
 monster.description = "a sulphur spouter"
-monster.experience = 11517
+monster.experience = 17517
 monster.outfit = {
 	lookType = 1547,
 	lookHead = 85,
@@ -86,6 +86,7 @@ monster.loot = {
 	{ id = 23533, chance = 1110 }, -- Ring of Red Plasma
 	{ name = "Fire Sword", chance = 770 },
 	{ name = "Crystal Crossbow", chance = 510 },
+
 }
 
 monster.attacks = {

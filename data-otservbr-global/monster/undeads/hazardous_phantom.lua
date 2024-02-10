@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Hazardous Phantom")
 local monster = {}
 
 monster.description = "a hazardous phantom"
-monster.experience = 66000
+monster.experience = 76000
 monster.outfit = {
 	lookType = 1298,
 	lookHead = 114,
@@ -78,7 +78,6 @@ monster.loot = {
 	{ id = 282, chance = 1570 }, -- giant shimmering pearl
 	{ name = "wand of everblazing", chance = 790 },
 	{ id = 23542, chance = 790 }, -- collar of blue plasma
-	{ id = 34109, chance = 20 }, -- bag you desire
 }
 
 monster.attacks = {

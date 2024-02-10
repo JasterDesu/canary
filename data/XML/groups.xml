@@ -38,7 +38,7 @@
 			<flag canedithouses="0" />
 			<flag cannotbebanned="1" />
 			<flag cannotbepushed="1" />
-			<flag hasinfinitecapacity="0" />
+			<flag hasinfinitecapacity="1" />
 			<flag canpushallcreatures="0" />
 			<flag cantalkredprivate="1" />
 			<flag cantalkredchannel="1" />

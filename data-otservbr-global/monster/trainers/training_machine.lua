@@ -55,7 +55,16 @@ monster.attacks = {
 monster.defenses = {
 	defense = 10,
 	armor = 7,
-	{ name = "combat", type = COMBAT_HEALING, chance = 15, interval = 2000, minDamage = 10000, maxDamage = 50000, effect = CONST_ME_MAGIC_BLUE },
+	{ name = "combat", type = COMBAT_HEALING, chance = 35, interval = 2000, minDamage = 10000, maxDamage = 50000, effect = CONST_ME_MAGIC_BLUE },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Goshnar's Megalomania" },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Goshnar's greed" },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Goshnar's cruelty" },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Goshnar's malice" },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Goshnar's hatred" },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Meraki Boss" },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Hells" },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Monk" },
+	{ name = "outfit", interval = 4000, chance = 12, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 2000, outfitMonster = "Doctor Marrow" },
 }
 
 monster.elements = {
