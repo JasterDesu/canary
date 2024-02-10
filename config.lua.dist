@@ -12,23 +12,14 @@ coreDirectory = "data"
 -- NOTE: Will only display logs with level higher or equal the one set.
 logLevel = "info"
 
---- Toggles the server's maintenance mode.
--- When enabled, it restricts user access and indicates maintenance operations.
--- @field [parent=#global] #boolean toggleMaintainMode false by default, set to true to enable maintenance mode.
-toggleMaintainMode = false
---- Message displayed during maintenance mode.
--- Should inform the expected downtime or resumption details succinctly.
--- @field [parent=#global] #string maintainModeMessage an empty string by default, set a custom message if needed.
-maintainModeMessage = ""
-
 -- Combat settings
 -- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
 -- NOTE: removeBeginningWeaponAmmunition: spears, arrows, bolt have endless ammo (allows training for paladins)
 -- NOTE: refundManaOnBeginningWeapons: wand of vortex and snakebite refund mana used (allows training for mages)
 worldType = "pvp"
 hotkeyAimbotEnabled = true
-protectionLevel = 7
-pzLocked = 60 * 1000
+protectionLevel = 250
+pzLocked = 30 * 1000
 removeChargesFromRunes = true
 removeChargesFromPotions = true
 removeWeaponAmmunition = true
@@ -36,7 +27,7 @@ removeWeaponCharges = true
 removeBeginningWeaponAmmunition = true
 refundBeginningWeaponMana = false
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
-whiteSkullTime = 15 * 60 * 1000
+whiteSkullTime = 5 * 60 * 1000
 stairJumpExhaustion = 2 * 1000
 experienceByKillingPlayers = false
 expFromPlayersLevelRange = 75
@@ -53,20 +44,21 @@ cleanProtectionZones = false
 -- NOTE: allowOldProtocol can allow login on 10x protocol. (11.00)
 -- NOTE: maxPlayers set to 0 means no limit
 -- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25
-ip = "127.0.0.1"
-allowOldProtocol = false
+ip = "131.196.199.100"
+allowOldProtocol = true
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-serverName = "OTServBR-Global"
-serverMotd = "Welcome to the OTServBR-Global!"
+serverName = "Meraki-Global"
+serverMotd = "Welcome to the Meraki Global!"
+onePlayerOnlinePerAccount = false
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
-maxItem = 2000
-maxContainer = 100
+maxItem = 20000
+maxContainer = 1000
 maxPlayersOnlinePerAccount = 1
 maxPlayersOutsidePZPerAccount = 1
 
@@ -76,8 +68,8 @@ maxPlayersOutsidePZPerAccount = 1
 packetCompressionLevel = 6
 
 -- Depot Limit
-freeDepotLimit = 2000
-premiumDepotLimit = 10000
+freeDepotLimit = 20000
+premiumDepotLimit = 100000
 depotBoxes = 20
 
 -- Prey system
@@ -125,11 +117,11 @@ forgeConvergenceTransferCost = 160
 forgeBaseSuccessRate = 50
 forgeBonusSuccessRate = 15
 forgeTierLossReduction = 50
-forgeAmountMultiplier = 3
+forgeAmountMultiplier = 3.5
 forgeMinSlivers = 3
 forgeMaxSlivers = 7
 forgeInfluencedLimit = 300
-forgeFiendishLimit = 3
+forgeFiendishLimit = 30
 forgeFiendishIntervalType = "hour"
 forgeFiendishIntervalTime = "1"
 
@@ -154,8 +146,8 @@ transcendanceAvatarDuration = 7000
 -- Bestiary & Bosstiary system
 -- NOTE: bestiaryKillMultiplier, multiplier value of monster killed, default 1
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
-bestiaryKillMultiplier = 1
-bosstiaryKillMultiplier = 1
+bestiaryKillMultiplier = 5
+bosstiaryKillMultiplier = 2
 bestiaryRateCharmShopPrice  = 1.0
 boostedBossSlot = true
 boostedBossLootBonus = 250
@@ -172,16 +164,16 @@ hazardDodgeMultiplier = 85
 hazardPodsDropMultiplier = 87
 hazardPodsTimeToDamage = 2000
 hazardPodsTimeToSpawn = 4000
-hazardExpBonusMultiplier = 2
-hazardLootBonusMultiplier = 2
-hazardPodsDamage = 5
-hazardSpawnPlunderMultiplier = 25
+hazardExpBonusMultiplier = 8
+hazardLootBonusMultiplier = 10
+hazardPodsDamage = 25
+hazardSpawnPlunderMultiplier = 2.8
 
 -- Loyalty system
 loyaltyEnabled = true
-loyaltyPointsPerCreationDay = 1
+loyaltyPointsPerCreationDay = 0
 loyaltyPointsPerPremiumDaySpent = 0
-loyaltyPointsPerPremiumDayPurchased = 0
+loyaltyPointsPerPremiumDayPurchased = 1
 loyaltyBonusPercentageMultiplier = 1.0
 
 -- Custom PvP system
@@ -209,14 +201,14 @@ wheelAtelierRevealGreaterCost = 6000000
 -- Familiar system
 -- NOTE: the time will be divided by 2 to get half the value, the familiar lasts 15 minutes by default and the cooldown of the spell is 30 minutes
 -- Only change it here if you know what you are doing or to make testing easier with familiars
-familiarTime = 30
+familiarTime = 20
 
 partyAutoShareExperience = true
 partyShareLootBoosts = false
 partyShareLootBoostsDimishingFactor = 0.7
 
 -- Tibiadrome concoctions
-tibiadromeConcoctionCooldown = 24 * 60 * 60 -- 24 hours
+tibiadromeConcoctionCooldown = 10 * 60 -- 10 min
 tibiadromeConcoctionDuration = 60 * 60 -- 1 hour
 tibiadromeConcoctionTickType = "online" -- "online" | "experience"
 
@@ -242,18 +234,18 @@ onlyPremiumAccount = false
 weatherRain = false
 thunderEffect = false
 allConsoleLog = false
-stashMoving = false
+stashMoving = true
 depotChest = 4
-autoLoot = false
-autoBank = false
-toggleGoldPouchAllowAnything = false
-toggleGoldPouchQuickLootOnly = false
+autoLoot = true
+autoBank = true
+toggleGoldPouchAllowAnything = true
+toggleGoldPouchQuickLootOnly = true
 toggleServerIsRetroPVP = false
-toggleTravelsFree = false
-buyAolCommandFee = 0
-buyBlessCommandFee = 0
+toggleTravelsFree = true
+buyAolCommandFee = 55000
+buyBlessCommandFee = 55000
 teleportPlayerToVocationRoom = true
-toggleReceiveReward = false
+toggleReceiveReward = true
 randomMonsterSpawn = false
 lootPouchMaxLimit = 2000
 storeInboxMaxLimit = 2000
@@ -265,19 +257,19 @@ teleportSummons = false
 -- NOTE: true will allow the /reload command to be used
 -- NOTE: Using this script might cause unwanted changes
 -- This script forces a reload in the entire server, this means that everything that is stored in memory might stop to work properly and/or completely, this script should be used in test environments only
-allowReload = false
+allowReload = true
 
 -- Stamina in Trainers
-staminaTrainer = false
-staminaTrainerDelay = 5
-staminaTrainerGain = 1
+staminaTrainer = true
+staminaTrainerDelay = 2
+staminaTrainerGain = 6
 -- Stamina in PZ
-staminaPz = false
-staminaOrangeDelay = 1
-staminaGreenDelay = 5
-staminaPzGain = 1
+staminaPz = true
+staminaOrangeDelay = 2
+staminaGreenDelay = 4
+staminaPzGain = 3
 -- Max players allowed on a dummy.
-maxAllowedOnADummy = 1
+maxAllowedOnADummy = 900
 
 -- Save interval per time
 -- NOTE: toggleSaveInterval: true = enable the save interval, false = disable the save interval
@@ -285,9 +277,9 @@ maxAllowedOnADummy = 1
 -- NOTE: toggleSaveIntervalCleanMap: true = enable the clean map, false = disable the clean map
 -- NOTE: saveIntervalTime: time based on what was set in "saveIntervalType"
 toggleSaveInterval = true
-saveIntervalType = "hour"
-toggleSaveIntervalCleanMap = true
-saveIntervalTime = 1
+saveIntervalType = "minute"
+toggleSaveIntervalCleanMap = false
+saveIntervalTime = 30
 
 -- Imbuement
 toggleImbuementShrineStorage = false
@@ -298,7 +290,7 @@ toggleImbuementNonAggressiveFightOnly = false
 -- NOTE: Only quests that are in the "freequests.lua" script table will work
 -- toggleFreeQuest = enable/disable the system
 -- freeQuestStage = if you add more quests to the table, change this value to run freeQuest again
-toggleFreeQuest = false
+toggleFreeQuest = true
 freeQuestStage = 1
 
 -- Deaths
@@ -317,11 +309,11 @@ Setting this to false may pose risks; if a house is abandoned and contains a lar
 ]]
 -- Periods: daily/weekly/monthly/yearly/never
 -- Base: sqm,rent,sqm+rent
-housePriceRentMultiplier = 0.0
-housePriceEachSQM = 1000
-houseRentPeriod = "never"
-houseRentRate = 1.0
-houseOwnedByAccount = false
+housePriceRentMultiplier = 1.2
+housePriceEachSQM = 25000
+houseRentPeriod = "weekly"
+houseRentRate = 1.3
+houseOwnedByAccount = true
 houseBuyLevel = 100
 housePurchasedShowPrice = false
 houseLoseAfterInactivity = 30 -- days; 0 = never
@@ -352,7 +344,7 @@ mapAuthor = "OpenTibiaBR"
 -- Party List limitations
 -- max distance in which players in party list are visible
 -- NOTE partyListMaxDistance set to 0 means no limit
-partyListMaxDistance = 30
+partyListMaxDistance = 50
 
 -- Custom Map
 -- NOTE: toggleMapCustom set to true will load all maps in custom map folder
@@ -366,9 +358,9 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "root"
-mysqlPass = "root"
-mysqlDatabase = "otservbr-global"
+mysqlUser = "otserv"
+mysqlPass = "G2n*!(tQ>EcDu9,V"
+mysqlDatabase = "otserv"
 mysqlPort = 3306
 mysqlSock = ""
 passwordType = "sha1"
@@ -393,28 +385,28 @@ resetSessionsOnStartup = false
 -- NOTE: disableLegacyRaids: set to true to disable legacy XML raids
 -- NOTE: combatChainDelay: set to minimum 50 miliseconds
 allowChangeOutfit = true
-toggleMountInProtectionZone = false
-freePremium = false
-kickIdlePlayerAfterMinutes = 15
+toggleMountInProtectionZone = true
+freePremium = true
+kickIdlePlayerAfterMinutes = 30
 maxMessageBuffer = 4
-emoteSpells = false
-allowWalkthrough = true
+emoteSpells = true
+allowWalkthrough = false
 coinPacketSize = 25
-coinImagesURL = "http://127.0.0.1/images/store/"
+coinImagesURL = "http://131.196.199.100/images/store/"
 classicAttackSpeed = false
 showScriptsLogInConsole = false
 -- time to suppress negative conditions after being affected by them (ms)
 minDelayBetweenConditions = 0
 -- configure maximum value of critical imbuement
 criticalChance = 10
-inventoryGlowOnFiveBless = false
+inventoryGlowOnFiveBless = true
 adventurersBlessingLevel = 21
 skulledDeathLoseStoreItem = false
-experienceDisplayRates = true
+experienceDisplayRates = false
 -- configure attack base on Fist Fighting skill/experience
 -- multiplierSpeedOnFist * 5  (multiplies the value obtained from the player fist skill and multiplies it * 5) max 25 is recommended due minTicks limits else player stop attack
 -- maxSpeedOnFist 500 miliseconds  (The maximum attack speed that can be obtained no matter how high the player has the Fist Fighting skill.)
-toggleAttackSpeedOnFist = false
+toggleAttackSpeedOnFist = true
 multiplierSpeedOnFist = 5
 maxSpeedOnFist = 500
 disableLegacyRaids = false
@@ -428,63 +420,63 @@ maxDamageReflection = 200
 -- NOTE: globalServerSaveNotifyDuration in minutes
 globalServerSaveNotifyMessage = true
 globalServerSaveNotifyDuration = 5
-globalServerSaveCleanMap = false
+globalServerSaveCleanMap = true
 globalServerSaveClose = false
 globalServerSaveShutdown = true
-globalServerSaveTime = "06:00:00"
+globalServerSaveTime = "22:25:00"
 
 -- Sort loot by chance, most rare items drop first
 -- it is good to be setted when you have a higher
 -- rateLoot to avoid losing all rare items when
 -- the corpse size is less than the total of loots
 -- the monster can drop
-sortLootByChance = false
+sortLootByChance = true
 
 -- Rates
 -- NOTE: rateExp, rateSkill and rateMagic is used when 'rateUseStages = false' - or a fallback only
 -- To configure rates see file data/stages.lua
 -- lowLevelBonusExp works up to level 50
-rateUseStages = false
-lowLevelBonusExp = 50
+rateUseStages = true
+lowLevelBonusExp = 100
 rateExp = 1
 rateSkill = 1
-rateLoot = 1
+rateLoot = 3.5
 rateMagic = 1
-rateSpawn = 1
+rateSpawn = 2.7
 
 -- Killing in the name of Quest
-rateKillingInTheNameOfPoints = 1
+rateKillingInTheNameOfPoints = 2
 
 -- Today regeneration condition over an loop every 1 second,
 -- So values which should regenerated less then 1 second or won't will work
-rateHealthRegen = 1.0
-rateHealthRegenSpeed = 1.0
-rateManaRegen = 1.0
-rateManaRegenSpeed = 1.0
+rateHealthRegen = 20.0
+rateHealthRegenSpeed = 20.0
+rateManaRegen = 20.0
+rateManaRegenSpeed = 20.0
 rateSoulRegen = 1.0
 rateSoulRegenSpeed = 1.0
 
-rateSpellCooldown = 1.0
-rateAttackSpeed = 1.0
-rateOfflineTrainingSpeed = rateAttackSpeed
-rateExerciseTrainingSpeed = rateAttackSpeed
+rateSpellCooldown = 3
+rateAttackSpeed = 1.2
+rateOfflineTrainingSpeed = 2.0
+rateExerciseTrainingSpeed = 2.8
 
 -- Monster rates
-rateMonsterHealth = 1.0
-rateMonsterAttack = 1.0
-rateMonsterDefense = 1.0
+rateMonsterHealth = 1.5
+rateMonsterAttack = 1.3
+rateMonsterDefense = 1.3
 
 -- Boss rates
-rateBossHealth = 1.0
-rateBossAttack = 1.0
-rateBossDefense = 1.0
+rateBossHealth = 1.8
+rateBossAttack = 1.5
+rateBossDefense = 1.8
 
 bossDefaultTimeToFightAgain = 20 * 60 * 60 -- 20 hours
 bossDefaultTimeToDefeat = 20 * 60 -- 20 minutes
 
 -- Monsters
 deSpawnRange = 2
-deSpawnRadius = 50
+deSpawnRadius = 30
 
 -- Stamina
 staminaSystem = true
@@ -500,15 +492,15 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = "OpenTibiaBR"
-ownerEmail = "opentibiabr@outlook.com"
-url = "http://docs.opentibiabr.com/"
+ownerName = "Meraki Server"
+ownerEmail = "ot.merakiglobal@gmail.com"
+url = "https://merakiglobal.online/"
 location = "South America"
 
 -- Sends Discord webhook notifications on startup, raids and shutdown.
 -- The URL layout is https://discord.com/api/webhooks/:id/:token
 -- Leave empty if you wish to disable.
-discordWebhookURL = ""
+discordWebhookURL = "https://discord.com/api/webhooks/1142149018923835392/7sRCEwkl788mDtec3j-TH82ZFwhrs2XHNMc0nKBjbkkg-WRcziZzYX1IblrvqP7gBk_K"
 discordSendFooter = true
 
 -- Vip System (Get more info in: https://github.com/opentibiabr/canary/pull/1063)
@@ -524,19 +516,19 @@ discordSendFooter = true
 -- 		If you use 'vipFamiliarTimeCooldownReduction' greater than half of 'familiarTime', it will get the highest possible value, in this case 15
 -- NOTE: GainCoin function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_coins.lua
 -- NOTE: GainToken function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_tokens.lua
-vipSystemEnabled = false
-vipBonusExp = 0
-vipBonusLoot = 0
-vipBonusSkill = 0
+vipSystemEnabled = true
+vipBonusExp = 10
+vipBonusLoot = 10
+vipBonusSkill = 10
 vipAutoLootVipOnly = false
-vipStayOnline = false
-vipFamiliarTimeCooldownReduction = 0
+vipStayOnline = true
+vipFamiliarTimeCooldownReduction = 2
 vipKeepHouse = false
 
 -- NOTE: set rewardChestCollectEnabled to true to enable the reward collect system
 -- NOTE set rewardChestMaxCollectItems max items per collect action
 rewardChestCollectEnabled = true
-rewardChestMaxCollectItems = 200
+rewardChestMaxCollectItems = 150
 
 -- Metrics
 --- Prometheus
